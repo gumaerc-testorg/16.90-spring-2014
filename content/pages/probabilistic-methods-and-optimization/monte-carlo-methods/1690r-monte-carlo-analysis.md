@@ -1,12 +1,15 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: 3.3 Monte Carlo Methods
+parent_type: CourseSection
 parent_uid: 2733fa33-374f-cb88-814c-413cb75b3483
 title: 3.3 Monte Carlo Methods
 uid: e4ed709d-1333-d460-e932-cde246cff19f
 ---
 
-*   [<Monte Carlo Methods]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/monte-carlo-methods)
+*   [\<Monte Carlo Methods]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/monte-carlo-methods)
 *   [3.3.1Introduction]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/monte-carlo-methods)
 *   [3.3.2Monte Carlo Analysis]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/monte-carlo-methods/1690r-monte-carlo-analysis)
 *   [3.3.3Monte Carlo Example]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/monte-carlo-methods/1690r-monte-carlo-example)

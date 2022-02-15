@@ -1,7 +1,10 @@
 ---
 content_type: page
 layout: instructor_insights
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: Instructor Insights
+parent_type: ThisCourseAtMITSection
 parent_uid: 92531f3e-8a3e-cee6-6fe2-59f558861eb5
 title: Reflecting on the Programming Projects
 uid: 9a0387e0-b596-f2b7-c0db-12fb8b08b819

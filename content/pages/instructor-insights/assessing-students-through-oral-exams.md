@@ -1,7 +1,10 @@
 ---
 content_type: page
 layout: instructor_insights
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: Instructor Insights
+parent_type: ThisCourseAtMITSection
 parent_uid: 92531f3e-8a3e-cee6-6fe2-59f558861eb5
 title: Assessing Students through Oral Exams
 uid: 9bd39d24-ce43-7655-9bc5-bd62b44c6e31

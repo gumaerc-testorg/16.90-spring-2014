@@ -1,5 +1,7 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 title: 'Unit 3: Probabilistic Methods and Optimization'
 uid: 487c3b15-ab67-d7c9-5cff-a6b147049d0c
 ---

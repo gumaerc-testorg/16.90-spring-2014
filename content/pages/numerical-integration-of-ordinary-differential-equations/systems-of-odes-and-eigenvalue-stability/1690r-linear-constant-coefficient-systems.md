@@ -1,12 +1,15 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: 1.6 Systems of ODE's and Eigenvalue Stability
+parent_type: CourseSection
 parent_uid: 36e637ce-d6ff-e05d-3606-0d537611ad2e
 title: 1.6 Systems of ODE's and Eigenvalue Stability
 uid: e8dbfb22-04cb-6fc4-431e-0b32e5ea65da
 ---
 
-*   [<Systems of ODE's and Eigenvalue Stability]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/systems-of-odes-and-eigenvalue-stability)
+*   [\<Systems of ODE's and Eigenvalue Stability]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/systems-of-odes-and-eigenvalue-stability)
 *   [1.6.1Nonlinear Systems]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/systems-of-odes-and-eigenvalue-stability)
 *   [1.6.2Linear Constant Coefficient Systems]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/systems-of-odes-and-eigenvalue-stability/1690r-linear-constant-coefficient-systems)
 *   [1.6.3Eigenvalue Stability for a Linear ODE]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/systems-of-odes-and-eigenvalue-stability/1690r-eigenvalue-stability-for-a-linear-ode)

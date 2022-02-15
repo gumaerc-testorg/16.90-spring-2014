@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: 1.9 Runge-Kutta Methods
+parent_type: CourseSection
 parent_uid: c5e7e539-a82c-8e62-0c8a-e738a18f6f10
 title: 1.9 Runge-Kutta Methods
 uid: 1f5a4263-b1f3-f522-02d6-af00f58ae206

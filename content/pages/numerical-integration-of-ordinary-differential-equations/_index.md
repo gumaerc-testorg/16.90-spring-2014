@@ -1,5 +1,7 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 title: 'Unit 1: Numerical Integration of Ordinary Differential Equations'
 uid: 5cae4847-c59a-a247-c767-3c0c6b0abef1
 ---

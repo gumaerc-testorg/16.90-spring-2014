@@ -1,12 +1,15 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: 'Unit 2: Numerical Methods for Partial Differential Equations'
+parent_type: CourseSection
 parent_uid: 125c58ac-6a34-5a7c-bba8-de2d3160cb8b
 title: 2.5 Introduction to Finite Volume Methods
 uid: 3d8df8b8-2291-7094-b5a6-9893808a75cc
 ---
 
-*   [<Boundary Conditions for Finite Differences]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/analysis-of-finite-difference-methods/1690r-boundary-conditions-for-finite-differences)
+*   [\<Boundary Conditions for Finite Differences]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/analysis-of-finite-difference-methods/1690r-boundary-conditions-for-finite-differences)
 *   [2.5.1Finite Volume Method in 1-D]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-volume-methods)
 *   [2.5.2Finite Volume Method Applied to 1-D Convection]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-volume-methods/1690r-finite-volume-method-applied-to-1-d-convection)
 *   [2.5.3Finite Volume Method in 2-D]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-volume-methods/1690r-finite-volume-method-in-2-d)
@@ -90,7 +93,7 @@ At this point, no approximations have been made thus Equation [2.102](javascrip
 {{< tableopen >}}
 {{< tropen >}}
 {{< tdopen >}}
-\\\[U(x,t) = U\_ i(t) \\quad \\mbox{for} \\quad x\_{i-\\frac{1}{2}} < x < x\_{i+\\frac{1}{2}}.\\\]
+\\\[U(x,t) = U\_ i(t) \\quad \\mbox{for} \\quad x\_{i-\\frac{1}{2}} \< x \< x\_{i+\\frac{1}{2}}.\\\]
 {{< tdclose >}}
 {{< tdopen >}}
 (2.103)
@@ -111,7 +114,7 @@ With this assumed form of the solution, the next issue is to determine the flux 
 {{< tableopen >}}
 {{< tropen >}}
 {{< tdopen >}}
-\\\[U(x\_{i+\\frac{1}{2}},t^{+}) = \\left\\{ \\begin{array}{cc} U\_{i}(t) & \\mbox{if } u(t)>0 \\\\ U\_{i+1}(t) & \\mbox{if } u(t)<0 \\end{array}\\right.\\\]
+\\\[U(x\_{i+\\frac{1}{2}},t^{+}) = \\left\\{ \\begin{array}{cc} U\_{i}(t) & \\mbox{if } u(t)>0 \\\\ U\_{i+1}(t) & \\mbox{if } u(t)\<0 \\end{array}\\right.\\\]
 {{< tdclose >}}
 {{< tdopen >}}
 (2.104)
@@ -126,7 +129,7 @@ The flux can be calculated directly from this value of \\(U\\),
 {{< tableopen >}}
 {{< tropen >}}
 {{< tdopen >}}
-\\\[F(x\_{i+\\frac{1}{2}},t^{+}) = \\left\\{ \\begin{array}{cc} u(t) U\_{i}(t) & \\mbox{if } u(t)>0 \\\\ u(t) U\_{i+1}(t) & \\mbox{if } u(t)<0 \\end{array}\\right.\\\]
+\\\[F(x\_{i+\\frac{1}{2}},t^{+}) = \\left\\{ \\begin{array}{cc} u(t) U\_{i}(t) & \\mbox{if } u(t)>0 \\\\ u(t) U\_{i+1}(t) & \\mbox{if } u(t)\<0 \\end{array}\\right.\\\]
 {{< tdclose >}}
 {{< tdopen >}}
 (2.105)

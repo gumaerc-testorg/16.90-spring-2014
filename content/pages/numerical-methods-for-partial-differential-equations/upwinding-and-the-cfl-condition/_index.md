@@ -1,12 +1,15 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: 'Unit 2: Numerical Methods for Partial Differential Equations'
+parent_type: CourseSection
 parent_uid: 125c58ac-6a34-5a7c-bba8-de2d3160cb8b
 title: 2.6 Upwinding and the CFL Condition
 uid: ce70b6b2-dea9-62c9-1d8e-4789958e4499
 ---
 
-*   [<Finite Volume Method for Nonlinear Systems]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-volume-methods/1690r-finite-volume-method-for-nonlinear-systems)
+*   [\<Finite Volume Method for Nonlinear Systems]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-volume-methods/1690r-finite-volume-method-for-nonlinear-systems)
 *   [2.6.1Upwinding]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/upwinding-and-the-cfl-condition)
 *   [2.6.2The CFL Condition]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/upwinding-and-the-cfl-condition/1690r-the-cfl-condition)
 *   [\>The CFL Condition]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/upwinding-and-the-cfl-condition/1690r-the-cfl-condition)
@@ -109,7 +112,7 @@ The method is graphically depicted in Figure [2.17]({{< baseurl >}}/resources/s
 
 **Figure 2.17**: Solution dependence using the Forward Time-Backward Space method.
 
-Notice that the numerical scheme is now biased to upstream values. The upstream direction is the left in this case, because the characteristic lines travel towards the right as time increases. (The upstream direction would be the right if the characteristic lines travel towrads the left as time increases.) Numerical schemes which exhibit such an upstream bias are called **upwind** schemes. Thus, the FTBS method is also known as the first-order upwind scheme. Not that when \\(u<0\\) then the forward difference \\(\\delta \_ x^{+}U\_ i = (U\_{i+1}-U\_{i})/\\Delta x\\) leads to the correct upwind scheme.
+Notice that the numerical scheme is now biased to upstream values. The upstream direction is the left in this case, because the characteristic lines travel towards the right as time increases. (The upstream direction would be the right if the characteristic lines travel towrads the left as time increases.) Numerical schemes which exhibit such an upstream bias are called **upwind** schemes. Thus, the FTBS method is also known as the first-order upwind scheme. Not that when \\(u\<0\\) then the forward difference \\(\\delta \_ x^{+}U\_ i = (U\_{i+1}-U\_{i})/\\Delta x\\) leads to the correct upwind scheme.
 
 Exercise
 --------

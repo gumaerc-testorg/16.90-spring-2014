@@ -1,12 +1,15 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: 2.6 Upwinding and the CFL Condition
+parent_type: CourseSection
 parent_uid: ce70b6b2-dea9-62c9-1d8e-4789958e4499
 title: 2.6 Upwinding and the CFL Condition
 uid: cf738358-ae33-664a-5d71-baadd24f92cb
 ---
 
-*   [<Upwinding and the CFL Condition]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/upwinding-and-the-cfl-condition)
+*   [\<Upwinding and the CFL Condition]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/upwinding-and-the-cfl-condition)
 *   [2.6.1Upwinding]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/upwinding-and-the-cfl-condition)
 *   [2.6.2The CFL Condition]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/upwinding-and-the-cfl-condition/1690r-the-cfl-condition)
 *   [\>Eigenvalue Stability of Finite Difference Methods]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/eigenvalue-stability-of-finite-difference-methods)
@@ -16,7 +19,7 @@ uid: cf738358-ae33-664a-5d71-baadd24f92cb
 
 [Measurable Outcome 2.2]({{< baseurl >}}/pages/measurable-outcome-index/#anchorMO22), [Measurable Outcome 2.5]({{< baseurl >}}/pages/measurable-outcome-index/#anchorMO25), [Measurable Outcome 2.6]({{< baseurl >}}/pages/measurable-outcome-index/#anchorMO26), [Measurable Outcome 2.7]({{< baseurl >}}/pages/measurable-outcome-index/#anchorMO27)
 
-Recall from [2.2.3]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/partial-differential-equations/1690r-convection) that the domain of dependence for the convection equation at \\((x,t)\\) is the characteristic \\(x(s<t)\\). We can also consider the numerical domain of dependence of the solution at \\((x\_ i, t^ n)\\). Figure [2.18]({{< baseurl >}}/resources/ftbsdomdep) shows the numerical domain of dependence of the FTBS method. Note that the numerical domain of dependence at \\(n-2\\) includes the nodes \\(i-2, i-1\\), and \\(i\\). \\((i-2,n-2)\\) and (\\(i-1,n-2\\)) are in the domain of dependence of \\((i,n)\\) because these values are required in the calculation of \\(U\_{i-1}^{n-1}\\), which in turn is required to calculate \\(U\_{i}^ n\\). Similarly, \\((i-1,n-2)\\) and \\((i,n-2)\\) are in the domain of dependence of \\((i,n)\\) because they are required in the calculation of \\(U\_{i}^{n-1}\\).
+Recall from [2.2.3]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/partial-differential-equations/1690r-convection) that the domain of dependence for the convection equation at \\((x,t)\\) is the characteristic \\(x(s\<t)\\). We can also consider the numerical domain of dependence of the solution at \\((x\_ i, t^ n)\\). Figure [2.18]({{< baseurl >}}/resources/ftbsdomdep) shows the numerical domain of dependence of the FTBS method. Note that the numerical domain of dependence at \\(n-2\\) includes the nodes \\(i-2, i-1\\), and \\(i\\). \\((i-2,n-2)\\) and (\\(i-1,n-2\\)) are in the domain of dependence of \\((i,n)\\) because these values are required in the calculation of \\(U\_{i-1}^{n-1}\\), which in turn is required to calculate \\(U\_{i}^ n\\). Similarly, \\((i-1,n-2)\\) and \\((i,n-2)\\) are in the domain of dependence of \\((i,n)\\) because they are required in the calculation of \\(U\_{i}^{n-1}\\).
 
 ![This graph has points at the x- and y-axis intersections, with a triangular highlighted area of six points representing a numerical domain of dependence.]({{< resource_file b96582f3-0aae-8cbf-f2cc-8c66fb68cfdc >}})
 

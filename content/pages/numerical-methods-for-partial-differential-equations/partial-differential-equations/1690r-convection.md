@@ -1,12 +1,15 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: 2.2 Partial Differential Equations
+parent_type: CourseSection
 parent_uid: 735249e6-5cf9-7136-d3a6-4f4d3458178c
 title: 2.2 Partial Differential Equations
 uid: 5b35a359-99c0-aad1-8b33-6126f6b0a143
 ---
 
-*   [<One-Dimensional Burgers Equation]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/partial-differential-equations/1690r-one-dimensional-burgers-equation)
+*   [\<One-Dimensional Burgers Equation]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/partial-differential-equations/1690r-one-dimensional-burgers-equation)
 *   [2.2.1Conservation Laws in Integral and Differential Form]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/partial-differential-equations)
 *   [2.2.2One-Dimensional Burgers Equation]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/partial-differential-equations/1690r-one-dimensional-burgers-equation)
 *   [2.2.3Convection]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/partial-differential-equations/1690r-convection)
@@ -313,7 +316,7 @@ Comparing this to Equation [2.29](javascript: void(0)), we see that if \\(\\fra
 
 **Figure 2.2**: Characteristic lines for a one-dimensional convection problem with velocity \\(v=1\\)
 
-For convection and other equations which possess characteristics, the solution at a particular point in space and time \\(U(\\vec{x}, t)\\) depends only upon the points along the characteristics from earlier times. For any partial differential equation, we call the region which affects the solution at \\((\\vec{x}, t)\\)the **domain of dependence**. For convection, the domain of dependence for \\((\\vec{x},t)\\) is simply the characteristic line, \\(\\vec{x}(t)\\),\\(s<t\\).
+For convection and other equations which possess characteristics, the solution at a particular point in space and time \\(U(\\vec{x}, t)\\) depends only upon the points along the characteristics from earlier times. For any partial differential equation, we call the region which affects the solution at \\((\\vec{x}, t)\\)the **domain of dependence**. For convection, the domain of dependence for \\((\\vec{x},t)\\) is simply the characteristic line, \\(\\vec{x}(t)\\),\\(s\<t\\).
 
 Among other phenomena, this equation can model the convection of cars along a freeway. \\(U\\) is the number of cars per unit length of the freeway. There is with no entrance or exit ramps (source term) in the segment of freeway. The initial condition \\(U(x, 0)\\) is a distribution of cars at time \\(t=0\\). All cars are moving at velocity \\(v\\). So the flux, i.e., the number of cars that moves past a fixed spatial location per unit time, is \\(v U\\). At time \\(t=1\\) the distribution of cars, \\(U(x,1)\\), has shifted to the right, notice that the number of cars at point \\(x\\) at time \\(t=1\\) is the same as the number of cars at point \\(x-vt\\) at time \\(t=0\\). Notice that the car distribution \\(at t=1\\) does not depend on what is to the left or right of the characteristic.
 

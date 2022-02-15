@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: 2.8 Method of Weighted Residuals
+parent_type: CourseSection
 parent_uid: bda18124-71a5-87a7-513f-cb81480a1e18
 title: 2.8 Method of Weighted Residuals
 uid: b85dba09-9fd2-582c-61f1-a5573f5c79a5

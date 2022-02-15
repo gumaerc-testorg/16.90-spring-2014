@@ -1,12 +1,15 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: 'Unit 3: Probabilistic Methods and Optimization'
+parent_type: CourseSection
 parent_uid: 487c3b15-ab67-d7c9-5cff-a6b147049d0c
 title: 3.6 Introduction to Design Optimization
 uid: 6f317b0d-95c1-d32c-f178-c9fdbae632d2
 ---
 
-*   [<Importance Sampling]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/variance-reduction-techniques-for-the-monte-carlo-method/1690r-importance-sampling)
+*   [\<Importance Sampling]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/variance-reduction-techniques-for-the-monte-carlo-method/1690r-importance-sampling)
 *   [3.6.1Design Optimization]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/introduction-to-design-optimization)
 *   [3.6.2Gradient Based Optimization]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/introduction-to-design-optimization/1690r-gradient-based-optimization)
 *   [3.6.3Unconstrained Gradient-Based Optimization Methods]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/introduction-to-design-optimization/1690r-unconstrained-gradient-based-optimization-methods)

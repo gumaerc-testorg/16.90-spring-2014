@@ -1,12 +1,15 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: 2.3 Introduction to Finite Difference Methods
+parent_type: CourseSection
 parent_uid: 02467893-75dd-44cc-fcac-58f1a4ee9702
 title: 2.3 Introduction to Finite Difference Methods
 uid: 431a74fb-7dca-19ce-0c6f-e4b6a0a6446d
 ---
 
-*   [<Finite Difference Methods]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-difference-methods/1690r-finite-difference-methods)
+*   [\<Finite Difference Methods]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-difference-methods/1690r-finite-difference-methods)
 *   [2.3.1Finite Difference Approximations]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-difference-methods)
 *   [2.3.2Finite Difference Methods]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-difference-methods/1690r-finite-difference-methods)
 *   [2.3.3Finite Difference Method Applied to 1-D Convection]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-difference-methods/1690r-finite-difference-method-applied-to-1-d-convection)
@@ -65,7 +68,7 @@ Specifically, we will use a constant velocity \\(u=1\\) and set the initial cond
 
 {{< tableclose >}}
 
-We consider the domain \\(\\Omega =\[0.1\]\\), with periodic boundary conditions. A MATLAB® script that implements this algorithm is:
+We consider the domain \\(\\Omega =\[0.1\]\\), with periodic boundary conditions. A MATLAB{{< sup "®" >}} script that implements this algorithm is:
 
 % This MATLAB script solves the one-dimensional convection
 % equation using a finite difference algorithm.  The
@@ -96,7 +99,7 @@ t = 0;
 U = Uo;
 
 % Loop until t > tfinal
-while (t < tfinal)
+while (t \< tfinal)
     % Forward Euler Step
     U(2:end) = U(2:end) - dt\*u\*centraldiff(U(2:end));
     U(1) = U(end); % enforce periodicity

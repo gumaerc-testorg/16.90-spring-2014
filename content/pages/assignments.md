@@ -1,5 +1,8 @@
 ---
 content_type: page
+learning_resource_types:
+- Assignments
+ocw_type: CourseSection
 title: Homework Assignments
 uid: 99048963-e96c-fc63-b687-a36dcc5be4e1
 ---

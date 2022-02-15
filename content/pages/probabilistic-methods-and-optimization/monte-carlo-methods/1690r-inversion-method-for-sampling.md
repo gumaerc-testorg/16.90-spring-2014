@@ -1,12 +1,15 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: 3.3 Monte Carlo Methods
+parent_type: CourseSection
 parent_uid: 2733fa33-374f-cb88-814c-413cb75b3483
 title: 3.3 Monte Carlo Methods
 uid: 91c4e401-232c-3823-cf38-1f612b323bb6
 ---
 
-*   [<Monte Carlo Example]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/monte-carlo-methods/1690r-monte-carlo-example)
+*   [\<Monte Carlo Example]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/monte-carlo-methods/1690r-monte-carlo-example)
 *   [3.3.1Introduction]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/monte-carlo-methods)
 *   [3.3.2Monte Carlo Analysis]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/monte-carlo-methods/1690r-monte-carlo-analysis)
 *   [3.3.3Monte Carlo Example]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/monte-carlo-methods/1690r-monte-carlo-example)
@@ -84,7 +87,7 @@ A triangular distribution is defined by the parameters \\(x\_{min}\\), the minim
 
 {{< tableclose >}}
 
-for \\(x\_{min} < x < x\_{mpp}\\), and
+for \\(x\_{min} \< x \< x\_{mpp}\\), and
 
 {{< tableopen >}}
 {{< tropen >}}
@@ -99,7 +102,7 @@ for \\(x\_{min} < x < x\_{mpp}\\), and
 
 {{< tableclose >}}
 
-for \\(x\_{mpp} < x < x\_{max}\\). Given a percentile drawn from a uniform random distribution, \\(u=F(x\_ u)\\), the value \\(x\_ u\\) can be found by inverting the previous relationships for \\(F(x)\\). Specifically, note that,
+for \\(x\_{mpp} \< x \< x\_{max}\\). Given a percentile drawn from a uniform random distribution, \\(u=F(x\_ u)\\), the value \\(x\_ u\\) can be found by inverting the previous relationships for \\(F(x)\\). Specifically, note that,
 
 {{< tableopen >}}
 {{< tropen >}}
@@ -114,7 +117,7 @@ for \\(x\_{mpp} < x < x\_{max}\\). Given a percentile drawn from a uniform rando
 
 {{< tableclose >}}
 
-Thus, if \\(u < F(x\_{mpp})\\) then \\(x\_{min} < x < x\_{mpp}\\), we invert Equation 21.1 to find,
+Thus, if \\(u \< F(x\_{mpp})\\) then \\(x\_{min} \< x \< x\_{mpp}\\), we invert Equation 21.1 to find,
 
 {{< tableopen >}}
 {{< tropen >}}
@@ -129,7 +132,7 @@ Thus, if \\(u < F(x\_{mpp})\\) then \\(x\_{min} < x < x\_{mpp}\\), we invert Equ
 
 {{< tableclose >}}
 
-Otherwise, if \\(u > F(x\_{mpp})\\) then \\(x\_{mpp} < x < x\_{max}\\), we invert Equation 21.2 to find,
+Otherwise, if \\(u > F(x\_{mpp})\\) then \\(x\_{mpp} \< x \< x\_{max}\\), we invert Equation 21.2 to find,
 
 {{< tableopen >}}
 {{< tropen >}}

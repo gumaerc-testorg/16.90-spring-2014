@@ -1,5 +1,8 @@
 ---
 content_type: page
+learning_resource_types:
+- Projects
+ocw_type: CourseSection
 title: Projects
 uid: f280d7dd-977c-7253-0f43-76c2e35fc1df
 ---
@@ -10,7 +13,7 @@ Three programming projects are required. The projects focus on applying numerica
 2.  [Partial Differential Equations (PDF)]({{< baseurl >}}/resources/mit16_90s14_project2)
 3.  [Probabilistic Methods and Optimization (PDF)]({{< baseurl >}}/resources/mit16_90s14_proj3_sol)
 
-It is recommended that programming be done in MATLAB®. Each project will be assigned a letter grade based on the standard MIT letter grade descriptions (see [syllabus]({{< baseurl >}}/pages/syllabus#grading_1)).
+It is recommended that programming be done in MATLAB{{< sup "®" >}}. Each project will be assigned a letter grade based on the standard MIT letter grade descriptions (see [syllabus]({{< baseurl >}}/pages/syllabus#grading_1)).
 
 Late projects will _not_ be accepted. This will always be the case unless a permission to submit late is obtained from the course faculty in advance. Such permission is only given if there is a strong (and generally totally unforeseen) reason. Except in extreme cases, this permission must be obtained at least three days prior to the due date. Attention: Computer-related disasters are **NOT** considered excuses for missing deadlines.
 

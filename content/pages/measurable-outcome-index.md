@@ -1,5 +1,7 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 title: Measurable Outcome Index
 uid: 6018b2cc-123e-d80f-52d9-19c7a1393c2e
 ---

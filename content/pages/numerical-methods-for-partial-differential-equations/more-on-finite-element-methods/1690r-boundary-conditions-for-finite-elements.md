@@ -1,12 +1,15 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: 2.10 More on Finite Element Methods
+parent_type: CourseSection
 parent_uid: 62673265-55df-f200-dae2-644697a179db
 title: 2.10 More on Finite Element Methods
 uid: 365c70a7-4666-ed1c-d140-8aeb96bff4a6
 ---
 
-*   [<More on Finite Element Methods]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/more-on-finite-element-methods)
+*   [\<More on Finite Element Methods]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/more-on-finite-element-methods)
 *   [2.10.1Gaussian Quadrature]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/more-on-finite-element-methods)
 *   [2.10.2Boundary Conditions for Finite Elements]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/more-on-finite-element-methods/1690r-boundary-conditions-for-finite-elements)
 *   [\>The Finite Element Method for Two-Dimensional Diffusion]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/the-finite-element-method-for-two-dimensional-diffusion)
@@ -239,7 +242,7 @@ As opposed to the Neumann boundary condition, the Robin boundary condition imple
 Boundary Condition Implementation Details
 -----------------------------------------
 
-In class, we will discuss the details of the implementation of the boundary conditions into a computer program using the following MATLAB® script.
+In class, we will discuss the details of the implementation of the boundary conditions into a computer program using the following MATLAB{{< sup "®" >}} script.
 
 % FEM solver for k d2T/dx2 + f = 0 where f = 50 exp(x)
 %

@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: 1.7 Stiffness and Implicit Methods
+parent_type: CourseSection
 parent_uid: 935324e3-1ab2-cb57-9059-0ba1f034fcd5
 title: 1.7 Stiffness and Implicit Methods
 uid: 84564160-240c-f3be-e329-df42818d2eaa

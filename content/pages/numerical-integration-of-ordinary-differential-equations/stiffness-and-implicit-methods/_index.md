@@ -1,12 +1,15 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: 'Unit 1: Numerical Integration of Ordinary Differential Equations'
+parent_type: CourseSection
 parent_uid: 5cae4847-c59a-a247-c767-3c0c6b0abef1
 title: 1.7 Stiffness and Implicit Methods
 uid: 935324e3-1ab2-cb57-9059-0ba1f034fcd5
 ---
 
-*   [<Imaginary Eigenvalues]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/systems-of-odes-and-eigenvalue-stability/1690r-imaginary-eigenvalues)
+*   [\<Imaginary Eigenvalues]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/systems-of-odes-and-eigenvalue-stability/1690r-imaginary-eigenvalues)
 *   [1.7.1Stiffness]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/stiffness-and-implicit-methods)
 *   [1.7.2Spectral Condition Number]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/stiffness-and-implicit-methods/1690r-spectral-condition-number)
 *   [1.7.3Implicit Methods for Linear Systems of ODEs]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/stiffness-and-implicit-methods/1690r-implicit-methods-for-linear-systems-of-odes)
@@ -78,7 +81,7 @@ The backward Euler method is first order accurate (\\(p=1\\)). The amplification
 
 {{< tableclose >}}
 
-When \\(\\lambda\\) is negative real, then \\(g < 1\\) for all \\({\\Delta t}\\). The eigenvalue stability region for the backward Euler method is shown in Figure [1.14]({{< baseurl >}}/resources/be_stab).
+When \\(\\lambda\\) is negative real, then \\(g \< 1\\) for all \\({\\Delta t}\\). The eigenvalue stability region for the backward Euler method is shown in Figure [1.14]({{< baseurl >}}/resources/be_stab).
 
 ![This graph shows that the eigenvalue instability region using the backward Euler method lies on a circle of radius one centered at +1 along the real axis.]({{< resource_file 990b5085-d189-e06d-5f7f-7e0dc9ef7aa8 >}})
 

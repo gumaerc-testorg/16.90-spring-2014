@@ -1,12 +1,15 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: 2.9 Introduction to Finite Elements
+parent_type: CourseSection
 parent_uid: 876be530-ac05-3384-5428-281b2b3c5b68
 title: 2.9 Introduction to Finite Elements
 uid: e47fb6af-9d83-9e3b-073e-b5053c6c2226
 ---
 
-*   [<Calculation of the Finite Element Weighted Residual]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-elements/1690r-calculation-of-the-finite-element-weighted-residual)
+*   [\<Calculation of the Finite Element Weighted Residual]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-elements/1690r-calculation-of-the-finite-element-weighted-residual)
 *   [2.9.1Motivation]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-elements)
 *   [2.9.21-D Finite Element Mesh and Notation]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-elements/1690r-1-d-finite-element-mesh-and-notation)
 *   [2.9.31-D Linear Elements and the Nodal Basis]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-elements/1690r-1-d-linear-elements-and-the-nodal-basis)
@@ -37,7 +40,7 @@ For the steady diffusion problem we have been considering in this chapter, the f
 
 where \\(K\\) is commonly referred to as the **stiffness matrix**. The unknown coefficients \\(a\_ i\\) of the solution approximation are in the vector \\(a\\). The right-hand side vector \\(F\\) represents the term \\(\\int \_{-L/2}^{L/2} \\phi \_ j f dx\\) as well as boundary conditions. The calculation of \\(K\\) and \\(F\\) for the finite element method is commonly performed by looping over each element and sending the contributions from each element to the proper entry in \\(K\\) and \\(F\\).
 
-The MATLAB® implementation of the finite element method for the problem described in Section [2.8.1]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/method-of-weighted-residuals) is shown below. Note, at the bottom of the script the exact solution and the error in the finite element solution are calculated and plotted. Interestingly, the FEM results for linear elements are exact at the nodes. This in general is not true, and is only a result of this specific problem. However, in between the nodes (i.e., within the elements), there is error since a linear function is being used to represent a higher-order (curved) solution. The error, \\(\\tilde{T}(x)-T(x)\\), is shown in Figure [2.40]({{< baseurl >}}/resources/error) for both \\(N=5\\) and \\(N=10\\) solutions. Note: to construct this plot, each element was subdivided into 20 points and the FEM and exact solution were calculated at these points and compared.
+The MATLAB{{< sup "®" >}} implementation of the finite element method for the problem described in Section [2.8.1]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/method-of-weighted-residuals) is shown below. Note, at the bottom of the script the exact solution and the error in the finite element solution are calculated and plotted. Interestingly, the FEM results for linear elements are exact at the nodes. This in general is not true, and is only a result of this specific problem. However, in between the nodes (i.e., within the elements), there is error since a linear function is being used to represent a higher-order (curved) solution. The error, \\(\\tilde{T}(x)-T(x)\\), is shown in Figure [2.40]({{< baseurl >}}/resources/error) for both \\(N=5\\) and \\(N=10\\) solutions. Note: to construct this plot, each element was subdivided into 20 points and the FEM and exact solution were calculated at these points and compared.
 
 % FEM solver for d2T/dx2 + f = 0 where f = 50 exp(x)
 %

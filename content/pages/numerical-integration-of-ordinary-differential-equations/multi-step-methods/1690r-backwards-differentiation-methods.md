@@ -1,12 +1,15 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: 1.8 Multi-Step Methods
+parent_type: CourseSection
 parent_uid: 67717326-dffb-7444-5162-101fd9a9ec91
 title: 1.8 Multi-Step Methods
 uid: 998bd383-00b6-8dbd-2d38-c251f8262e37
 ---
 
-*   [<Adams-Moulton Methods]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/multi-step-methods/1690r-adams-moulton-methods)
+*   [\<Adams-Moulton Methods]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/multi-step-methods/1690r-adams-moulton-methods)
 *   [1.8.1Adams-Bashforth Methods]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/multi-step-methods)
 *   [1.8.2Adams-Moulton Methods]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/multi-step-methods/1690r-adams-moulton-methods)
 *   [1.8.3Backwards Differentiation Methods]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/multi-step-methods/1690r-backwards-differentiation-methods)
@@ -248,8 +251,8 @@ The stability boundary for these methods are shown below. As can be seen, all of
 
 **Figure 1.21**: Backwards differentiation stability regions for \\(p=1\\) through \\(p=4\\) method. Note: interior of curves is unstable region.
 
-MATLAB®'s ODE Integrators
--------------------------
+MATLAB{{< sup "®" >}}'s ODE Integrators
+---------------------------------------
 
 MATLAB has a a set of tools for integration of ODE's. We will briefly look at two of them: **ode45** and **ode15s**. **ode45** is designed to solve problems that are not stiff while **ode15s** is intended for stiff problems. **ode45** is based on a four and five-stage Runge-Kutta integration (discussed in Section [1.9]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/runge-kutta-methods)), while **ode15s** is based on a range of highly stable implicit integration formulas (one option when using **ode15s** is to use the backwards differentiation formulas). As a short illustration on how these MATLAB ODE integrators are implemented, the following script solves the one-dimensional diffusion problem from Section [1.7.1]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/stiffness-and-implicit-methods) using either **ode45** or **ode15s**. The specific problem we consider here is a bar which is initially at a temperature \\(T\_{init} = 400 K\\) and at \\(t=0\\), the temperature at the left and right ends is suddenly raised to \\(800 K\\) and \\(1000 K\\), respectively.
 
@@ -313,7 +316,7 @@ for ii = 1:Nx-1,
     A(ii,ii-1) = k/h^2;
   end
 
-  if (ii < Nx-1),
+  if (ii \< Nx-1),
     A(ii,ii+1) = k/h^2;
   end
 

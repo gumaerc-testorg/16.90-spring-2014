@@ -1,12 +1,15 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: 2.9 Introduction to Finite Elements
+parent_type: CourseSection
 parent_uid: 876be530-ac05-3384-5428-281b2b3c5b68
 title: 2.9 Introduction to Finite Elements
 uid: c369789e-d0c6-3741-858a-5dcba10708e4
 ---
 
-*   [<Weak Form of the Weighted Residual]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-elements/1690r-weak-form-of-the-weighted-residual)
+*   [\<Weak Form of the Weighted Residual]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-elements/1690r-weak-form-of-the-weighted-residual)
 *   [2.9.1Motivation]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-elements)
 *   [2.9.21-D Finite Element Mesh and Notation]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-elements/1690r-1-d-finite-element-mesh-and-notation)
 *   [2.9.31-D Linear Elements and the Nodal Basis]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-elements/1690r-1-d-linear-elements-and-the-nodal-basis)
@@ -55,7 +58,7 @@ The derivative of basis function \\(j\\) is
 {{< tableopen >}}
 {{< tropen >}}
 {{< tdopen >}}
-\\\[{\\phi \_ j}\_ x(x) = \\left\\{ \\begin{array}{cl} 0, & \\mbox{for } x < x\_{j-1}, \\\\\[0.1in\] \\frac{1}{\\Delta x\_{j-1}}, & \\mbox{for } x\_{j-1} < x < x\_{j},\\\\\[0.1in\] \\frac{-1}{\\Delta x\_{j}}, & \\mbox{for } x\_{j} < x < x\_{j+1},\\\\\[0.1in\] 0, & \\mbox{for } x > x\_{j+1}. \\end{array}\\right. \\label{equ:phi\_ x\_ linear}\\\]
+\\\[{\\phi \_ j}\_ x(x) = \\left\\{ \\begin{array}{cl} 0, & \\mbox{for } x \< x\_{j-1}, \\\\\[0.1in\] \\frac{1}{\\Delta x\_{j-1}}, & \\mbox{for } x\_{j-1} \< x \< x\_{j},\\\\\[0.1in\] \\frac{-1}{\\Delta x\_{j}}, & \\mbox{for } x\_{j} \< x \< x\_{j+1},\\\\\[0.1in\] 0, & \\mbox{for } x > x\_{j+1}. \\end{array}\\right. \\label{equ:phi\_ x\_ linear}\\\]
 {{< tdclose >}}
 {{< tdopen >}}
 (2.213)

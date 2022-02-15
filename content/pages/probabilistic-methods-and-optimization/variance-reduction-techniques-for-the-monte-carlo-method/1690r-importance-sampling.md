@@ -1,12 +1,15 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: 3.5 Variance Reduction Techniques for the Monte Carlo Method
+parent_type: CourseSection
 parent_uid: e719ff51-42ac-62fb-c38b-4410308e2feb
 title: 3.5 Variance Reduction Techniques for the Monte Carlo Method
 uid: bb1256bc-6917-d853-f4c6-36ce5943967f
 ---
 
-*   [<Variance Reduction Techniques for the Monte Carlo Method]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/variance-reduction-techniques-for-the-monte-carlo-method)
+*   [\<Variance Reduction Techniques for the Monte Carlo Method]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/variance-reduction-techniques-for-the-monte-carlo-method)
 *   [3.5.1Monte Carlo Error as a Random Variable]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/variance-reduction-techniques-for-the-monte-carlo-method)
 *   [3.5.2Importance Sampling]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/variance-reduction-techniques-for-the-monte-carlo-method/1690r-importance-sampling)
 *   [\>Introduction to Design Optimization]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/introduction-to-design-optimization)

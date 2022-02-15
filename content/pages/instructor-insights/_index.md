@@ -1,6 +1,8 @@
 ---
 content_type: page
 layout: instructor_insights
+learning_resource_types: []
+ocw_type: ThisCourseAtMITSection
 title: Instructor Insights
 uid: 92531f3e-8a3e-cee6-6fe2-59f558861eb5
 ---
@@ -53,20 +55,6 @@ Curriculum Information
 ### Offered
 
 Every spring semester
-
-{{< anchor "classroom" >}}{{< /anchor >}}
-
-The Classroom
--------------
-
-*   ![Four rows of tables, with 10 seats in each row. Blackboards at the front of the room.]({{< resource_file f08b9aa2-88e9-82cf-cc94-a27c57cd671c >}})
-    
-    ![](/images/educator/classroom_prev_dim.png) Room 1 of 1 ![](/images/educator/classroom_next_dim.png)
-    
-    ### Lecture
-    
-    This lecture-style classroom has a seating capacity of 48. The room can be darkened for viewing videos, and has an LCD video projector.
-    
 
 {{< anchor "assessment" >}}{{< /anchor >}}
 

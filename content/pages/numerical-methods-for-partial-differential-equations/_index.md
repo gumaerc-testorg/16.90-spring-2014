@@ -1,5 +1,7 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 title: 'Unit 2: Numerical Methods for Partial Differential Equations'
 uid: 125c58ac-6a34-5a7c-bba8-de2d3160cb8b
 ---

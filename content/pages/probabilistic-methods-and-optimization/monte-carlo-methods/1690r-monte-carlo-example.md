@@ -1,12 +1,15 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: 3.3 Monte Carlo Methods
+parent_type: CourseSection
 parent_uid: 2733fa33-374f-cb88-814c-413cb75b3483
 title: 3.3 Monte Carlo Methods
 uid: 2ff49897-a168-59d4-5d17-feb89ff6fae6
 ---
 
-*   [<Monte Carlo Analysis]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/monte-carlo-methods/1690r-monte-carlo-analysis)
+*   [\<Monte Carlo Analysis]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/monte-carlo-methods/1690r-monte-carlo-analysis)
 *   [3.3.1Introduction]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/monte-carlo-methods)
 *   [3.3.2Monte Carlo Analysis]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/monte-carlo-methods/1690r-monte-carlo-analysis)
 *   [3.3.3Monte Carlo Example]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/monte-carlo-methods/1690r-monte-carlo-example)
@@ -18,13 +21,13 @@ uid: 2ff49897-a168-59d4-5d17-feb89ff6fae6
 
 [Measurable Outcome 3.3]({{< baseurl >}}/pages/measurable-outcome-index/#anchorMO33), [Measurable Outcome 3.5]({{< baseurl >}}/pages/measurable-outcome-index/#anchorMO35)
 
-To demonstrate the Monte Carlo simulation method in more detail, let's consider the specific case where the thermal barrier coating in the previous turbine blade example is known to be uniformly distributed from \\(0.00025m < L\_{TBC} < 0.00075m\\) as shown from the probability density function (PDF) of LTBC in Figure [3.3]({{< baseurl >}}/resources/ltbc_uniform).
+To demonstrate the Monte Carlo simulation method in more detail, let's consider the specific case where the thermal barrier coating in the previous turbine blade example is known to be uniformly distributed from \\(0.00025m \< L\_{TBC} \< 0.00075m\\) as shown from the probability density function (PDF) of LTBC in Figure [3.3]({{< baseurl >}}/resources/ltbc_uniform).
 
 ![The graph shows a line begins at 0 PDF(LTBC), which goes to 2000 PDF(LTBC), and returns to 0 PDF(LTBC).]({{< resource_file 6c1cf0fd-d59a-b650-239b-04f487afbfe2 >}})
 
-**Figure 3.3**: Probability density function (PDF) of \\(L\_{TBC}\\) uniformly-distributed from 0.00025m < \\(L\_{TBC}\\) <0.00075m
+**Figure 3.3**: Probability density function (PDF) of \\(L\_{TBC}\\) uniformly-distributed from 0.00025m \< \\(L\_{TBC}\\) \<0.00075m
 
-The first step is to generate a random sample of \\(L\_{TBC}\\). The basic approach relies on the ability to generate random numbers that are uniformly distributed from 0 to 1. This type of functionality exists within many different scientific programming environments or languages. In MATLAB®, the command rand returns a random number that is uniformly distributed from 0 to 1. Then, using the uniform distribution from 0 to 1, a uniform distribution of \\(L\_{TBC}\\) over the desired range can be created,
+The first step is to generate a random sample of \\(L\_{TBC}\\). The basic approach relies on the ability to generate random numbers that are uniformly distributed from 0 to 1. This type of functionality exists within many different scientific programming environments or languages. In MATLAB{{< sup "®" >}}, the command rand returns a random number that is uniformly distributed from 0 to 1. Then, using the uniform distribution from 0 to 1, a uniform distribution of \\(L\_{TBC}\\) over the desired range can be created,
 
 {{< tableopen >}}
 {{< tropen >}}

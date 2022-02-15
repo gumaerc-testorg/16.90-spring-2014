@@ -1,12 +1,15 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: 'Unit 3: Probabilistic Methods and Optimization'
+parent_type: CourseSection
 parent_uid: 487c3b15-ab67-d7c9-5cff-a6b147049d0c
 title: 3.2 Review of Probability and Statistics
 uid: 972a23bc-2208-f9b1-2895-30de24175e7d
 ---
 
-*   [<Pre-requisite Material]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/overview4/1690r-pre-requisite-material4)
+*   [\<Pre-requisite Material]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/overview4/1690r-pre-requisite-material4)
 *   [3.2.1Random Variables]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/review-of-probability-and-statistics)
 *   [3.2.2Outcomes and Events]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/review-of-probability-and-statistics/1690r-outcomes-and-events)
 *   [3.2.3Distributions]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/review-of-probability-and-statistics/1690r-distributions)

@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: 'Unit 1: Numerical Integration of Ordinary Differential Equations'
+parent_type: CourseSection
 parent_uid: 5cae4847-c59a-a247-c767-3c0c6b0abef1
 title: 1.2 Discretizing ODEs
 uid: f239c31a-53e6-28b3-a06a-8e6fff5ed57c

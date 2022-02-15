@@ -1,12 +1,15 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: 2.9 Introduction to Finite Elements
+parent_type: CourseSection
 parent_uid: 876be530-ac05-3384-5428-281b2b3c5b68
 title: 2.9 Introduction to Finite Elements
 uid: 03bb574d-085a-6995-0b35-3c2a70257228
 ---
 
-*   [<1-D Finite Element Mesh and Notation]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-elements/1690r-1-d-finite-element-mesh-and-notation)
+*   [\<1-D Finite Element Mesh and Notation]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-elements/1690r-1-d-finite-element-mesh-and-notation)
 *   [2.9.1Motivation]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-elements)
 *   [2.9.21-D Finite Element Mesh and Notation]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-elements/1690r-1-d-finite-element-mesh-and-notation)
 *   [2.9.31-D Linear Elements and the Nodal Basis]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-elements/1690r-1-d-linear-elements-and-the-nodal-basis)
@@ -120,12 +123,12 @@ Now, evaluating this expansion at node \\(i\\),
 
 {{< tableclose >}}
 
-Finally, since the solutions vary linearly over each element, this means that \\(\\phi \_ j(x)\\) is zero for \\(x < x\_{j-1}\\) and \\(x > x\_{j+1}\\), increases linearly from zero to one from \\(x\_{j-1}\\) to \\(x\_{j}\\), and decreases linearly back to zero at \\(x\_{j+1}\\). \\(\\phi \_ j(x)\\) is shown in Figure [2.37]({{< baseurl >}}/resources/linelem_phi). The, specific function is,
+Finally, since the solutions vary linearly over each element, this means that \\(\\phi \_ j(x)\\) is zero for \\(x \< x\_{j-1}\\) and \\(x > x\_{j+1}\\), increases linearly from zero to one from \\(x\_{j-1}\\) to \\(x\_{j}\\), and decreases linearly back to zero at \\(x\_{j+1}\\). \\(\\phi \_ j(x)\\) is shown in Figure [2.37]({{< baseurl >}}/resources/linelem_phi). The, specific function is,
 
 {{< tableopen >}}
 {{< tropen >}}
 {{< tdopen >}}
-\\\[\\phi \_ j(x) = \\left\\{ \\begin{array}{cl} 0, & \\mbox{for } x < x\_{j-1}, \\\\\[0.1in\] \\frac{x-x\_{j-1}}{\\Delta x\_{j-1}}, & \\mbox{for } x\_{j-1} < x < x\_{j},\\\\\[0.1in\] \\frac{x\_{j+1} -x}{\\Delta x\_{j}}, & \\mbox{for } x\_{j} < x < x\_{j+1},\\\\\[0.1in\] 0, & \\mbox{for } x > x\_{j+1}. \\end{array}\\right. \\label{equ:phi\_ linear}\\\]
+\\\[\\phi \_ j(x) = \\left\\{ \\begin{array}{cl} 0, & \\mbox{for } x \< x\_{j-1}, \\\\\[0.1in\] \\frac{x-x\_{j-1}}{\\Delta x\_{j-1}}, & \\mbox{for } x\_{j-1} \< x \< x\_{j},\\\\\[0.1in\] \\frac{x\_{j+1} -x}{\\Delta x\_{j}}, & \\mbox{for } x\_{j} \< x \< x\_{j+1},\\\\\[0.1in\] 0, & \\mbox{for } x > x\_{j+1}. \\end{array}\\right. \\label{equ:phi\_ linear}\\\]
 {{< tdclose >}}
 {{< tdopen >}}
 (2.203)

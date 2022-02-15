@@ -1,12 +1,15 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: 1.5 Zero Stability and the Dahlquist Equivalence Theorem
+parent_type: CourseSection
 parent_uid: fab29380-eb66-91e4-e3ce-4dfce3f50fbe
 title: 1.5 Zero Stability and the Dahlquist Equivalence Theorem
 uid: 69a13333-afb5-90ee-d339-c7fba31529fd
 ---
 
-*   [<Zero Stability and the Dahlquist Equivalence Theorem]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/zero-stability-and-the-dahlquist-equivalence-theorem)
+*   [\<Zero Stability and the Dahlquist Equivalence Theorem]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/zero-stability-and-the-dahlquist-equivalence-theorem)
 *   [1.5.1Consistency]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/zero-stability-and-the-dahlquist-equivalence-theorem)
 *   [1.5.2Stability]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/zero-stability-and-the-dahlquist-equivalence-theorem/1690r-stability)
 *   [1.5.3Dahlquist Equivalence Theorem]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/zero-stability-and-the-dahlquist-equivalence-theorem/1690r-dahlquist-equivalence-theorem)

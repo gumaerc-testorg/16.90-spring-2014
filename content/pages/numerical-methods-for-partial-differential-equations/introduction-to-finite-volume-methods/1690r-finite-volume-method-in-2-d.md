@@ -1,12 +1,15 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: 2.5 Introduction to Finite Volume Methods
+parent_type: CourseSection
 parent_uid: 3d8df8b8-2291-7094-b5a6-9893808a75cc
 title: 2.5 Introduction to Finite Volume Methods
 uid: d4283096-1401-99d2-0c85-a833f3518826
 ---
 
-*   [<Finite Volume Method Applied to 1-D Convection]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-volume-methods/1690r-finite-volume-method-applied-to-1-d-convection)
+*   [\<Finite Volume Method Applied to 1-D Convection]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-volume-methods/1690r-finite-volume-method-applied-to-1-d-convection)
 *   [2.5.1Finite Volume Method in 1-D]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-volume-methods)
 *   [2.5.2Finite Volume Method Applied to 1-D Convection]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-volume-methods/1690r-finite-volume-method-applied-to-1-d-convection)
 *   [2.5.3Finite Volume Method in 2-D]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-volume-methods/1690r-finite-volume-method-in-2-d)
@@ -117,7 +120,7 @@ As in one-dimensional case, we assume that the solution everywhere in the contro
 
 {{< tableclose >}}
 
-where \\(\\vec{u}\_{AB}\\) is the velocity between the control volumes. Thus, when \\(\\vec{u}\_{AB}\\cdot \\vec{n}\_{AB} > 0\\), the flux is determined by the state from cell A, i.e. \\(U\_ A\\). Likewise, when \\(\\vec{u}\_{AB}\\cdot \\vec{n}\_{AB} < 0\\), the flux is determined by the state from cell B, i.e. \\(U\_ B\\). The velocity, \\(\\vec{u}\_{AB}\\) is usually approximated as the velocity at the midpoint of the edge (note: \\(\\vec{u}\\) can be a function of \\(\\vec{x}\\) in two-dimensions even though the velocity is assumed to be divergence free, i.e. \\({\\partial u}/{\\partial x} + {\\partial v}/{\\partial y} = 0\\)). We use the notation \\(\\hat{H}\\) to indicate that the flux is an approximation to the true flux when \\(\\vec{u}\\) is not constant. Thus, the finite volume algorithm prior to time discretization would be given by,
+where \\(\\vec{u}\_{AB}\\) is the velocity between the control volumes. Thus, when \\(\\vec{u}\_{AB}\\cdot \\vec{n}\_{AB} > 0\\), the flux is determined by the state from cell A, i.e. \\(U\_ A\\). Likewise, when \\(\\vec{u}\_{AB}\\cdot \\vec{n}\_{AB} \< 0\\), the flux is determined by the state from cell B, i.e. \\(U\_ B\\). The velocity, \\(\\vec{u}\_{AB}\\) is usually approximated as the velocity at the midpoint of the edge (note: \\(\\vec{u}\\) can be a function of \\(\\vec{x}\\) in two-dimensions even though the velocity is assumed to be divergence free, i.e. \\({\\partial u}/{\\partial x} + {\\partial v}/{\\partial y} = 0\\)). We use the notation \\(\\hat{H}\\) to indicate that the flux is an approximation to the true flux when \\(\\vec{u}\\) is not constant. Thus, the finite volume algorithm prior to time discretization would be given by,
 
 {{< tableopen >}}
 {{< tropen >}}

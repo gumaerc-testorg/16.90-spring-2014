@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: 3.6 Introduction to Design Optimization
+parent_type: CourseSection
 parent_uid: 6f317b0d-95c1-d32c-f178-c9fdbae632d2
 title: 3.6 Introduction to Design Optimization
 uid: 3cde12b3-c306-b87c-973f-5af561f4875f

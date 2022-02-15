@@ -1,12 +1,15 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: 1.6 Systems of ODE's and Eigenvalue Stability
+parent_type: CourseSection
 parent_uid: 36e637ce-d6ff-e05d-3606-0d537611ad2e
 title: 1.6 Systems of ODE's and Eigenvalue Stability
 uid: 04ce95ca-3b3a-cc38-5d83-81923a3dd6fe
 ---
 
-*   [<Linear Constant Coefficient Systems]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/systems-of-odes-and-eigenvalue-stability/1690r-linear-constant-coefficient-systems)
+*   [\<Linear Constant Coefficient Systems]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/systems-of-odes-and-eigenvalue-stability/1690r-linear-constant-coefficient-systems)
 *   [1.6.1Nonlinear Systems]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/systems-of-odes-and-eigenvalue-stability)
 *   [1.6.2Linear Constant Coefficient Systems]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/systems-of-odes-and-eigenvalue-stability/1690r-linear-constant-coefficient-systems)
 *   [1.6.3Eigenvalue Stability for a Linear ODE]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/systems-of-odes-and-eigenvalue-stability/1690r-eigenvalue-stability-for-a-linear-ode)
@@ -121,7 +124,7 @@ For a given problem, i.e. with a given \\(\\lambda\\), the timestep must be chos
 Example
 -------
 
-Let's return to the previous example, \\(u\_ t = -u^2\\) with \\(u(0) = 1\\). To determine the timestep restrictions, we must estimate the eigenvalue for this problem. Linearizing this problem about a known state gives the eigenvalue as \\(\\lambda = {\\partial f}/{\\partial u} = -2u\\). Since the solution will decay from the initial condition (since \\(u\_ t < 0\\) because \\(-u^2 < 0\\)), the largest magnitude of the eigenvalue occurs at the initial condition when \\(u(0) = 1\\) and thus, \\(\\lambda = -2\\). Since this eigenvalue is a negative real number, the maximum \\({\\Delta t}\\) will occur at the maximum extent of the stability region along the negative real axis. Since this occurs when \\(\\lambda {\\Delta t}= -2\\), this implies that \\({\\Delta t}< 1\\). To test the validity of this analysis, the forward Euler method was run for \\({\\Delta t}= 0.9\\) and \\({\\Delta t}= 1.1\\). The results are shown in Figure [1.11]({{< baseurl >}}/resources/ga_fe_stab) which are stable for \\({\\Delta t}= 0.9\\) but are unstable for \\({\\Delta t}= 1.1\\).
+Let's return to the previous example, \\(u\_ t = -u^2\\) with \\(u(0) = 1\\). To determine the timestep restrictions, we must estimate the eigenvalue for this problem. Linearizing this problem about a known state gives the eigenvalue as \\(\\lambda = {\\partial f}/{\\partial u} = -2u\\). Since the solution will decay from the initial condition (since \\(u\_ t \< 0\\) because \\(-u^2 \< 0\\)), the largest magnitude of the eigenvalue occurs at the initial condition when \\(u(0) = 1\\) and thus, \\(\\lambda = -2\\). Since this eigenvalue is a negative real number, the maximum \\({\\Delta t}\\) will occur at the maximum extent of the stability region along the negative real axis. Since this occurs when \\(\\lambda {\\Delta t}= -2\\), this implies that \\({\\Delta t}\< 1\\). To test the validity of this analysis, the forward Euler method was run for \\({\\Delta t}= 0.9\\) and \\({\\Delta t}= 1.1\\). The results are shown in Figure [1.11]({{< baseurl >}}/resources/ga_fe_stab) which are stable for \\({\\Delta t}= 0.9\\) but are unstable for \\({\\Delta t}= 1.1\\).
 
 ![This figure shows two line graphs of forward Euler solutions used to determine the timestep restrictions, one that shows stability for Δt=0.9 and the other that is unstable for Δt=1.1.]({{< resource_file 9f9bf44b-75d4-cda7-ee12-7e6196a405a1 >}})
 

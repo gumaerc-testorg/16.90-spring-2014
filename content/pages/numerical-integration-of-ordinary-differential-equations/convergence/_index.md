@@ -1,12 +1,15 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: 'Unit 1: Numerical Integration of Ordinary Differential Equations'
+parent_type: CourseSection
 parent_uid: 5cae4847-c59a-a247-c767-3c0c6b0abef1
 title: 1.4 Convergence
 uid: 99ee39b7-79f4-9afb-0849-103c798f1c50
 ---
 
-*   [<Example of Most Accurate Multi-Step Method]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/order-of-accuracy/1690r-example-of-most-accurate-multi-step-method)
+*   [\<Example of Most Accurate Multi-Step Method]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/order-of-accuracy/1690r-example-of-most-accurate-multi-step-method)
 *   [1.4.1Types of Errors]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/convergence)
 *   [1.4.2Convergence of Numerical Methods]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/convergence/1690r-convergence-of-numerical-methods)
 *   [1.4.3Rate of Convergence Global Order of Accuracy]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/convergence/1690r-rate-of-convergence--global-order-of-accuracy-)

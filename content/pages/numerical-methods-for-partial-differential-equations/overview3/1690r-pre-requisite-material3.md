@@ -1,12 +1,15 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: 2.1 Overview
+parent_type: CourseSection
 parent_uid: 83cf414c-172d-b4cc-a6f5-1749a486c94a
 title: 2.1 Overview
 uid: 1544cfcd-73e6-31b3-4c33-e1da2e8ef635
 ---
 
-*   [<Overview]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/overview3)
+*   [\<Overview]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/overview3)
 *   [2.1.1Measurable Outcomes]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/overview3)
 *   [2.1.2Pre-requisite Material]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/overview3/1690r-pre-requisite-material3)
 *   [\>Partial Differential Equations]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/partial-differential-equations)

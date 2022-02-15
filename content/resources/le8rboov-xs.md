@@ -1,8 +1,10 @@
 ---
 content_type: resource
 description: ''
-file: /media/https%3A/open-learning-course-data-rc.s3.amazonaws.com/16-90-computational-methods-in-aerospace-engineering-spring-2014/723cbb0ad8b67ee0a42c60877fc7ea64_le8rBOOV-Xs.srt
+file: /media/courses/16-90-computational-methods-in-aerospace-engineering-spring-2014/723cbb0ad8b67ee0a42c60877fc7ea64_le8rBOOV-Xs.srt
 file_type: application/x-subrip
+learning_resource_types: []
+ocw_type: OCWFile
 resourcetype: Other
 title: 3play caption file
 uid: 723cbb0a-d8b6-7ee0-a42c-60877fc7ea64

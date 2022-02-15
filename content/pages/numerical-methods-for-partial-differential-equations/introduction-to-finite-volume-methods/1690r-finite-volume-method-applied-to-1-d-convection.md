@@ -1,12 +1,15 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: 2.5 Introduction to Finite Volume Methods
+parent_type: CourseSection
 parent_uid: 3d8df8b8-2291-7094-b5a6-9893808a75cc
 title: 2.5 Introduction to Finite Volume Methods
 uid: 767b5c96-4bd2-394b-92da-ca9fa25f2e1e
 ---
 
-*   [<Introduction to Finite Volume Methods]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-volume-methods)
+*   [\<Introduction to Finite Volume Methods]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-volume-methods)
 *   [2.5.1Finite Volume Method in 1-D]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-volume-methods)
 *   [2.5.2Finite Volume Method Applied to 1-D Convection]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-volume-methods/1690r-finite-volume-method-applied-to-1-d-convection)
 *   [2.5.3Finite Volume Method in 2-D]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-volume-methods/1690r-finite-volume-method-in-2-d)
@@ -19,7 +22,7 @@ uid: 767b5c96-4bd2-394b-92da-ca9fa25f2e1e
 
 [Measurable Outcome 2.1]({{< baseurl >}}/pages/measurable-outcome-index/#anchorMO21), [Measurable Outcome 2.2]({{< baseurl >}}/pages/measurable-outcome-index/#anchorMO22), [Measurable Outcome 2.3]({{< baseurl >}}/pages/measurable-outcome-index/#anchorMO23)
 
-The following MATLAB® script solves the one-dimensional convection equation using the finite volume algorithm given by Equation [2.107](javascript: void(0)) and [2.108](javascript: void(0)). The problem is assumed to be periodic so that whatever leaves the domain at \\(x = x\_ R\\) re-enters it at \\(x=x\_ L\\).
+The following MATLAB{{< sup "®" >}} script solves the one-dimensional convection equation using the finite volume algorithm given by Equation [2.107](javascript: void(0)) and [2.108](javascript: void(0)). The problem is assumed to be periodic so that whatever leaves the domain at \\(x = x\_ R\\) re-enters it at \\(x=x\_ L\\).
 
 % Script: convect1d.m
 
@@ -57,7 +60,7 @@ U = exp(-xmid.^2);
 t = 0;
 
 % Loop until t > tfinal
-while (t < tfinal),
+while (t \< tfinal),
 
   Ubc = \[U(Nx), U, U(1)\]; % This enforces the periodic bc
 

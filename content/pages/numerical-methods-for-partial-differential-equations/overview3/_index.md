@@ -1,12 +1,15 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: 'Unit 2: Numerical Methods for Partial Differential Equations'
+parent_type: CourseSection
 parent_uid: 125c58ac-6a34-5a7c-bba8-de2d3160cb8b
 title: 2.1 Overview
 uid: 83cf414c-172d-b4cc-a6f5-1749a486c94a
 ---
 
-*   [<Numerical Methods for Partial Differential Equations]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations)
+*   [\<Numerical Methods for Partial Differential Equations]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations)
 *   [2.1.1Measurable Outcomes]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/overview3)
 *   [2.1.2Pre-requisite Material]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/overview3/1690r-pre-requisite-material3)
 *   [\>Pre-requisite Material]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/overview3/1690r-pre-requisite-material3)

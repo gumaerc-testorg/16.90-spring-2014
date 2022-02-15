@@ -1,7 +1,10 @@
 ---
 content_type: page
 layout: instructor_insights
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: Instructor Insights
+parent_type: ThisCourseAtMITSection
 parent_uid: 92531f3e-8a3e-cee6-6fe2-59f558861eb5
 title: Mapping Measurable Outcomes
 uid: ef5333c4-caac-4b23-3599-e89e37e52fea
