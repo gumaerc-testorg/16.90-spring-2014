@@ -1,6 +1,7 @@
 ---
 content_type: resource
 description: ''
+end_time: ''
 file: null
 learning_resource_types:
 - Lecture Videos
@@ -11,6 +12,7 @@ parent_type: CourseSection
 related_resources_text: ''
 resource_index_text: ''
 resourcetype: Video
+start_time: ''
 title: 'Session 1: Course introduction and ordinary differential equations (ODEs)'
 uid: ae9575c2-fd7d-3817-6b66-89bfcd2fe4a5
 video_files:

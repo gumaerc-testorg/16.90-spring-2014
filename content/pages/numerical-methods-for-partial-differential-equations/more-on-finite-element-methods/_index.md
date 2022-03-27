@@ -525,6 +525,7 @@ Clearly, these functions vary linearly with \\(\\xi\\). \\(\\phi \_1(\\xi )\\) i
 
 The following is a MATLAB{{< sup "®" >}} script that uses Gaussian quadrature to evaluate the forcing integral and solve the problem described in Section [2.8.1]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/method-of-weighted-residuals). The number of points being used is set at the beginning of the script. Results for both 1-point and 2-point quadrature are shown in Figures [2.41]({{< baseurl >}}/resources/n5_nq1)\-[2.46]({{< baseurl >}}/resources/error_nq2) for \\(5\\) and \\(10\\) elements. While the 2-point quadrature rule has lower error than the 1-point rule, both appear to be second-order accurate since the errors reduce by nearly a factor of \\(4\\) for the factor 2 change in mesh size. Also, the results are no longer exact at the nodes like they were in Section [2.9.3]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-elements/1690r-1-d-linear-elements-and-the-nodal-basis) (though the 2-point quadrature rules are quite close).
 
+```
 % FEM solver for d2T/dx2 + f = 0 where f = 50 exp(x)
 %
 % BC's: T(-1) = 100 and T(1) = 100.
@@ -663,6 +664,9 @@ figure(2);
 plot(xe,Terr);
 xlabel('x');
 ylabel('Error');
+
+
+```
 
 ![This graph shows two very similar lines, each with a single peak, that represent the exact solution and the finite element solution using Nq=1 point Gaussian quadrature with 5 elements.]({{< resource_file a09f0571-9f7d-a4ff-6865-9cbcfb0f9abb >}})
 

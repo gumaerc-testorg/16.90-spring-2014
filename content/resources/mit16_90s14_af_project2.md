@@ -8,6 +8,7 @@ learning_resource_types:
 ocw_type: OCWFile
 parent_title: Projects
 parent_type: CourseSection
+parent_uid: f280d7dd-977c-7253-0f43-76c2e35fc1df
 resourcetype: Document
 title: 16.90 Spring 2014 Project 2 Sample
 uid: 29a9eceb-c070-d704-ff01-e0482fa0a334

@@ -1,6 +1,7 @@
 ---
 content_type: resource
 description: ''
+end_time: ''
 file: null
 learning_resource_types:
 - Lecture Videos
@@ -12,6 +13,7 @@ parent_type: CourseSection
 related_resources_text: ''
 resource_index_text: ''
 resourcetype: Video
+start_time: ''
 title: 'Session 23: Probabilistic Methods & Optimization: Intro to design optimization
   I'
 uid: 90a1ac47-13f4-7de2-17c8-2b87fab8f1d1

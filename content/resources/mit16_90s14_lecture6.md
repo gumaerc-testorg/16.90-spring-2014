@@ -9,6 +9,7 @@ learning_resource_types:
 ocw_type: OCWFile
 parent_title: Lecture Notes
 parent_type: CourseSection
+parent_uid: 88a44a6b-ab5e-a4b6-5c5c-1379cb3476ce
 resourcetype: Document
 title: 'Lecture 6 Notes: Numerical Integration of ODEs: Stiffness, Implicit Methods,
   Runge-Kutta'

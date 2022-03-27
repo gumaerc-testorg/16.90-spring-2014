@@ -22,6 +22,7 @@ uid: a9d8dcc7-e873-f01e-6dc3-6f07884b2f23
 
 [Measurable Outcome 2.1]({{< baseurl >}}/pages/measurable-outcome-index/#anchorMO21), [Measurable Outcome 2.2]({{< baseurl >}}/pages/measurable-outcome-index/#anchorMO22), [Measurable Outcome 2.3]({{< baseurl >}}/pages/measurable-outcome-index/#anchorMO23), [Measurable Outcome 2.4]({{< baseurl >}}/pages/measurable-outcome-index/#anchorMO24)
 
+```
 % Script: convect2d.m
 
 close all;
@@ -138,6 +139,8 @@ while (t \< tfinal),
   drawnow;
 
 end
+
+```
 
 Exercise
 --------

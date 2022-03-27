@@ -1,6 +1,7 @@
 ---
 content_type: resource
 description: ''
+end_time: ''
 file: null
 learning_resource_types:
 - Lecture Videos
@@ -11,6 +12,7 @@ parent_type: CourseSection
 related_resources_text: ''
 resource_index_text: ''
 resourcetype: Video
+start_time: ''
 title: 'Session 25: Probabilistic Methods & Optimization: Final exam review'
 uid: fe7edaad-2c30-cfcf-2c18-a449a02a7e8c
 video_files:

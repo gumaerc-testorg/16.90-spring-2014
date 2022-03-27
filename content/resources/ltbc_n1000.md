@@ -11,6 +11,7 @@ learning_resource_types: []
 ocw_type: OCWImage
 parent_title: 3.3 Monte Carlo Methods
 parent_type: CourseSection
+parent_uid: 2ff49897-a168-59d4-5d17-feb89ff6fae6
 resourcetype: Image
 title: Ltbc_N1000.png
 uid: 5685f0bf-0d24-581c-255e-0addfcdd7c93

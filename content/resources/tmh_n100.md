@@ -11,6 +11,7 @@ learning_resource_types: []
 ocw_type: OCWImage
 parent_title: 3.3 Monte Carlo Methods
 parent_type: CourseSection
+parent_uid: 2ff49897-a168-59d4-5d17-feb89ff6fae6
 resourcetype: Image
 title: Tmh_N100.png
 uid: 6c76c91e-1dea-a929-8a3c-d41f939a10ac

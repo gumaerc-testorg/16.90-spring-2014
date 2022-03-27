@@ -11,6 +11,7 @@ learning_resource_types: []
 ocw_type: OCWImage
 parent_title: Mapping Measurable Outcomes
 parent_type: CourseSection
+parent_uid: ef5333c4-caac-4b23-3599-e89e37e52fea
 resourcetype: Image
 title: MIToces2.png
 uid: c35870fc-26c1-0a4b-f2a1-ba8c066a755d

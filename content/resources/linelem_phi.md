@@ -11,6 +11,7 @@ learning_resource_types: []
 ocw_type: OCWImage
 parent_title: 2.9 Introduction to Finite Elements
 parent_type: CourseSection
+parent_uid: 03bb574d-085a-6995-0b35-3c2a70257228
 resourcetype: Image
 title: linelem_phi.png
 uid: 80400448-ffd6-9327-116c-3a9c3fc923ac

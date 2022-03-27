@@ -8,6 +8,7 @@ learning_resource_types:
 ocw_type: OCWFile
 parent_title: Exams
 parent_type: CourseSection
+parent_uid: e557ef78-084f-8ac1-fc20-05a2eb55fb95
 resourcetype: Document
 title: 16.90 2013 Midterm Exam
 uid: d4a57c62-e8ab-99c4-ad4d-20d6c412dcd9

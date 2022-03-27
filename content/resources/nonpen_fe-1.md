@@ -11,6 +11,7 @@ learning_resource_types: []
 ocw_type: OCWImage
 parent_title: 1.6 Systems of ODE's and Eigenvalue Stability
 parent_type: CourseSection
+parent_uid: 04ce95ca-3b3a-cc38-5d83-81923a3dd6fe
 resourcetype: Image
 title: nonpen_fe.png
 uid: dc33ef95-4ba0-0d2f-d80b-8e3cff99322b

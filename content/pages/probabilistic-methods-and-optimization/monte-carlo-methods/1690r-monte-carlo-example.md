@@ -52,6 +52,7 @@ This approach is used to create the samples shown as histograms in Figure 21.3 f
 
 The following is a MATLAB script that implements the Monte Carlo method for this uniform distribution of \\(L\_{TBC}\\). The distributions of \\(T\_{mh}\\) shown in Figure 3.5 correspond to the \\(L\_{TBC}\\) distributions shown in Figure 3.4 and were generated with this script.
 
+```
 clear all; 
 hgas = 3000; 
 Tgas = 1500; 
@@ -71,6 +72,8 @@ xlabel('\\(L\_{tbc}\\) (m)');
 figure(2); 
 hist(Tmh,20); 
 xlabel('\\(T\_{mh}\\) (K)'); 
+
+```
 
 ![The figure is a histogram of Tmh, given a uniformly distributed LTBC for a sample size of N=100.]({{< resource_file 6c76c91e-1dea-a929-8a3c-d41f939a10ac >}}) ![The figure is a histogram of Tmh, given a uniformly distributed LTBC for a sample size of N=1000.]({{< resource_file 4acf6f0a-3493-7663-293b-dada4937265a >}}) ![The figure is a histogram of Tmh, given a uniformly distributed LTBC for a sample size of N=10000.]({{< resource_file a4ae5c4d-684b-d20f-c089-2eb1d37fd728 >}})
 

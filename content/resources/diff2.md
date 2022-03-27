@@ -11,6 +11,7 @@ learning_resource_types: []
 ocw_type: OCWImage
 parent_title: 2.2 Partial Differential Equations
 parent_type: CourseSection
+parent_uid: 91200789-ca43-fa38-473a-bc690667c305
 resourcetype: Image
 title: diff2.png
 uid: 2ecb26a0-1f93-3580-ad6a-2492f2aa7bf9

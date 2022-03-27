@@ -11,6 +11,7 @@ learning_resource_types: []
 ocw_type: OCWImage
 parent_title: 2.10 More on Finite Element Methods
 parent_type: CourseSection
+parent_uid: 62673265-55df-f200-dae2-644697a179db
 resourcetype: Image
 title: N5_nq2.png
 uid: c3fa8111-c346-0d47-c4ee-0503f9c3febc

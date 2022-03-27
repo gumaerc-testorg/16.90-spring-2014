@@ -14,6 +14,7 @@ learning_resource_types: []
 ocw_type: OCWImage
 parent_title: Mapping Measurable Outcomes
 parent_type: CourseSection
+parent_uid: ef5333c4-caac-4b23-3599-e89e37e52fea
 resourcetype: Image
 title: xoces_large.png
 uid: be346f7e-4f47-00e3-9bb4-89c282323827

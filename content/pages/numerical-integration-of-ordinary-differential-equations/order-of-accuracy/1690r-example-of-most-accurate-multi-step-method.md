@@ -155,7 +155,9 @@ To find the most accurate multi-step method of the given form, we solve for the 
 
 **Exercise 1** Use MATLAB{{< sup "®" >}}'s backslash command in the form
 
+```
  x= A\\b 
+```
 
 {{< quiz_multiple_choice questionId="Q1_div" >}}{{< quiz_choices >}}{{< quiz_choice isCorrect="false" >}}&nbsp; \\(\[4,-5,2,4\]\\) &nbsp;{{< /quiz_choice >}}
 {{< quiz_choice isCorrect="false" >}}&nbsp; \\(\[1,0,-1,5\]\\) &nbsp;{{< /quiz_choice >}}

@@ -11,6 +11,7 @@ learning_resource_types: []
 ocw_type: OCWImage
 parent_title: 2.2 Partial Differential Equations
 parent_type: CourseSection
+parent_uid: 5b35a359-99c0-aad1-8b33-6126f6b0a143
 resourcetype: Image
 title: onedconvect.png
 uid: 301c64b6-5694-04b6-9aed-376bcad4b476

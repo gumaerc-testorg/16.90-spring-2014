@@ -70,6 +70,7 @@ Specifically, we will use a constant velocity \\(u=1\\) and set the initial cond
 
 We consider the domain \\(\\Omega =\[0.1\]\\), with periodic boundary conditions. A MATLAB{{< sup "®" >}} script that implements this algorithm is:
 
+```
 % This MATLAB script solves the one-dimensional convection
 % equation using a finite difference algorithm.  The
 % discretization uses central differences in space and forward
@@ -118,6 +119,8 @@ while (t \< tfinal)
     grid on;
     drawnow;
 end
+
+```
 
 Figures [2.10]({{< baseurl >}}/resources/ftcs1), [2.11]({{< baseurl >}}/resources/ftcs2), and [2.12]({{< baseurl >}}/resources/ftcs3) plot the finite difference solution at times \\(t=0.25, t=0.5\\) and \\(t=1.0\\). The exact solution for this problem has \\(U(x,t) = U\_0(x)\\) for any integer time \\((t=1,2, \\ldots ).\\). When the numerical method is run, the Gaussian disturbance is convected across the domain, however small oscillations are observed at \\(t=0.5\\) which begin to pollute the numerical solution. Eventually, these oscillations grow until the entire solution is contaminated. We will later show that the \\(FTCS\\) algorithm is unstable for any \\(\\Delta t\\) for pure convection. Thus, what we are observing is an instability that can be predicted through some analysis.
 

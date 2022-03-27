@@ -11,6 +11,7 @@ learning_resource_types: []
 ocw_type: OCWImage
 parent_title: 2.9 Introduction to Finite Elements
 parent_type: CourseSection
+parent_uid: e47fb6af-9d83-9e3b-073e-b5053c6c2226
 resourcetype: Image
 title: Error.png
 uid: edac6683-b5ae-210c-aefa-d2d46260f790

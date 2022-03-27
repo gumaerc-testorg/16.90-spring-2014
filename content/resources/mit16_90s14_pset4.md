@@ -8,6 +8,7 @@ learning_resource_types:
 ocw_type: OCWFile
 parent_title: Homework Assignments
 parent_type: CourseSection
+parent_uid: 99048963-e96c-fc63-b687-a36dcc5be4e1
 resourcetype: Document
 title: 16.90 Spring 2014 Homework Assignment 4
 uid: 05d5210c-0dab-62b0-e32e-370114f83fef

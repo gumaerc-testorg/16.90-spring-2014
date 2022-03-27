@@ -11,6 +11,7 @@ learning_resource_types: []
 ocw_type: OCWImage
 parent_title: 3.3 Monte Carlo Methods
 parent_type: CourseSection
+parent_uid: 91c4e401-232c-3823-cf38-1f612b323bb6
 resourcetype: Image
 title: normcdf.png
 uid: 4bdf2791-cc81-bf80-4a0f-f3bf8725c090

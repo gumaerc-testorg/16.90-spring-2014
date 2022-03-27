@@ -244,6 +244,8 @@ Boundary Condition Implementation Details
 
 In class, we will discuss the details of the implementation of the boundary conditions into a computer program using the following MATLAB{{< sup "®" >}} script.
 
+```
+
 % FEM solver for k d2T/dx2 + f = 0 where f = 50 exp(x)
 %
 % Thermal conductivity is set to one, k=1.
@@ -377,5 +379,8 @@ T = K\\F;
 plot(x,T,'\*-');
 xlabel('x');
 ylabel('T');
+
+
+```
 
 BackMore on Finite Element Methods ContinueThe Finite Element Method for Two-Dimensional Diffusion

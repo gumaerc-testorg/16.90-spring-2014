@@ -1,6 +1,7 @@
 ---
 content_type: resource
 description: ''
+end_time: ''
 file: null
 learning_resource_types:
 - Lecture Videos
@@ -12,6 +13,7 @@ parent_type: CourseSection
 related_resources_text: ''
 resource_index_text: ''
 resourcetype: Video
+start_time: ''
 title: 'Session 16: Numerical Methods of PDEs: Finite Element Method 1'
 uid: 62c18c90-f379-9ce6-175e-d05989576c0c
 video_files:

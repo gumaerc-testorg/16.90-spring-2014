@@ -24,6 +24,7 @@ uid: 767b5c96-4bd2-394b-92da-ca9fa25f2e1e
 
 The following MATLAB{{< sup "®" >}} script solves the one-dimensional convection equation using the finite volume algorithm given by Equation [2.107](javascript: void(0)) and [2.108](javascript: void(0)). The problem is assumed to be periodic so that whatever leaves the domain at \\(x = x\_ R\\) re-enters it at \\(x=x\_ L\\).
 
+```
 % Script: convect1d.m
 
 clear all;
@@ -89,6 +90,9 @@ end
 U = exp(-xmid.^2);
 hold on;
 stairs(x,\[U, U(Nx)\], 'r-');
+
+
+```
 
 Exercise
 --------

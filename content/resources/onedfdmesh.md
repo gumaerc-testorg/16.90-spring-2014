@@ -11,6 +11,7 @@ learning_resource_types: []
 ocw_type: OCWImage
 parent_title: 2.3 Introduction to Finite Difference Methods
 parent_type: CourseSection
+parent_uid: 02467893-75dd-44cc-fcac-58f1a4ee9702
 resourcetype: Image
 title: onedFdMesh.png
 uid: 0fd319a8-62eb-2d6d-6c5e-bb179acd3862

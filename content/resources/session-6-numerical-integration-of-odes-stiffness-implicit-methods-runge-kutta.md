@@ -1,6 +1,7 @@
 ---
 content_type: resource
 description: ''
+end_time: ''
 file: null
 learning_resource_types:
 - Lecture Videos
@@ -12,6 +13,7 @@ parent_type: CourseSection
 related_resources_text: ''
 resource_index_text: ''
 resourcetype: Video
+start_time: ''
 title: 'Session 6: Numerical Integration of ODEs: Stiffness, Implicit Methods, Runge-Kutta'
 uid: 947c6f55-aad1-4893-5a11-bb3b8680890e
 video_files:

@@ -1,6 +1,7 @@
 ---
 content_type: resource
 description: ''
+end_time: ''
 file: null
 learning_resource_types:
 - Lecture Videos
@@ -12,6 +13,7 @@ parent_type: CourseSection
 related_resources_text: ''
 resource_index_text: ''
 resourcetype: Video
+start_time: ''
 title: 'Session 7: Numerical Methods of Partial Differential Equations: Introduction'
 uid: 88c9efd2-d79d-8010-c0f8-4456fd221c0a
 video_files:

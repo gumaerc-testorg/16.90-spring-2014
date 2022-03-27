@@ -1,6 +1,7 @@
 ---
 content_type: resource
 description: ''
+end_time: ''
 file: null
 learning_resource_types:
 - Lecture Videos
@@ -12,6 +13,7 @@ parent_type: CourseSection
 related_resources_text: ''
 resource_index_text: ''
 resourcetype: Video
+start_time: ''
 title: 'Session 4: Numerical Integration of ODEs: Stability and a ballistics problem'
 uid: 3e80d294-7c11-c633-0492-1d680133c788
 video_files:

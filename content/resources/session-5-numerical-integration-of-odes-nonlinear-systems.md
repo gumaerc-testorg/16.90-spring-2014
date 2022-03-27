@@ -1,6 +1,7 @@
 ---
 content_type: resource
 description: ''
+end_time: ''
 file: null
 learning_resource_types:
 - Lecture Videos
@@ -12,6 +13,7 @@ parent_type: CourseSection
 related_resources_text: ''
 resource_index_text: ''
 resourcetype: Video
+start_time: ''
 title: 'Session 5: Numerical Integration of ODEs: Nonlinear Systems'
 uid: 746f4122-d95c-c3c2-ef33-5f714bb892a4
 video_files:

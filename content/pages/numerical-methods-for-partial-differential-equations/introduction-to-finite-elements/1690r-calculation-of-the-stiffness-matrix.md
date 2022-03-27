@@ -42,6 +42,7 @@ where \\(K\\) is commonly referred to as the **stiffness matrix**. The unknown c
 
 The MATLAB{{< sup "®" >}} implementation of the finite element method for the problem described in Section [2.8.1]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/method-of-weighted-residuals) is shown below. Note, at the bottom of the script the exact solution and the error in the finite element solution are calculated and plotted. Interestingly, the FEM results for linear elements are exact at the nodes. This in general is not true, and is only a result of this specific problem. However, in between the nodes (i.e., within the elements), there is error since a linear function is being used to represent a higher-order (curved) solution. The error, \\(\\tilde{T}(x)-T(x)\\), is shown in Figure [2.40]({{< baseurl >}}/resources/error) for both \\(N=5\\) and \\(N=10\\) solutions. Note: to construct this plot, each element was subdivided into 20 points and the FEM and exact solution were calculated at these points and compared.
 
+```
 % FEM solver for d2T/dx2 + f = 0 where f = 50 exp(x)
 %
 % BCs: T(-1) = 100 and T(1) = 100.
@@ -150,6 +151,9 @@ figure(2);
 plot(xe,Terr);
 xlabel('x');
 ylabel('Error');
+
+
+```
 
 ![This graph has two very similarly, single-peaked lines. One line is the exact and the other line is for the finite element solution for 5 elements.]({{< resource_file 64c009f2-846e-bada-ab48-edf5d11fd0b3 >}})
 

@@ -11,6 +11,7 @@ learning_resource_types: []
 ocw_type: OCWImage
 parent_title: 1.8 Multi-Step Methods
 parent_type: CourseSection
+parent_uid: 998bd383-00b6-8dbd-2d38-c251f8262e37
 resourcetype: Image
 title: dif1d_ode15s.png
 uid: 68c3f1b4-6bc7-0f77-f3f9-b4ae7782a553

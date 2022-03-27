@@ -150,6 +150,7 @@ Earlier, we used a forward time, central space (FTCS) discretization for 1-d con
 
 Since this method is explicit, the matrix \\(A\\) does not need to be constructed directly, rather Equation ([2.138](javascript: void(0))) can be used to find the new values of \\(U\\) at each point \\(i\\). However, if we are interested in calculating the eigenvalues to analyze the eigenvalue stability, then the \\(A\\) matrix is required. The following script does exactly that (i.e. calculates \\(A\\), determines the eigenvalues of \\(A\\), and then plots the eigenvalues scaled by \\({\\Delta t}\\) overlayed with the forward Euler stability region). The script can set either the inflow/outflow boundary conditions described in Example [2.3.3]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-difference-methods/1690r-finite-difference-method-applied-to-1-d-convection), or can set periodic boundary conditions. We will look at the eigenvalues of both cases.
 
+```
 % This MATLAB script calculates the eigenvalues of
 % the one-dimensional convection equation discretized by
 % finite differences.  The discretization uses central
@@ -228,6 +229,8 @@ plot(-1 + sin(th),cos(th));
 hold off;
 axis('equal');
 grid on;
+
+```
 
 Figures [2.21]({{< baseurl >}}/resources/ftcs_eig) and [2.22]({{< baseurl >}}/resources/ftcs_eig_per) show plots of \\(\\lambda {\\Delta t}\\) for a CFL set to one. Recall that for this one-dimensional problem, the CFL number was defined as,
 

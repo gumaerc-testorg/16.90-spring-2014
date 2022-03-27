@@ -1,6 +1,7 @@
 ---
 content_type: resource
 description: ''
+end_time: ''
 file: null
 learning_resource_types:
 - Lecture Videos
@@ -12,6 +13,7 @@ parent_type: CourseSection
 related_resources_text: ''
 resource_index_text: ''
 resourcetype: Video
+start_time: ''
 title: 'Session 10: Numerical Methods of PDEs: Finite Volume Methods 1'
 uid: 3a8bbc2c-8709-aba5-e65b-f7332373e1c2
 video_files:

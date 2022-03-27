@@ -11,6 +11,7 @@ learning_resource_types: []
 ocw_type: OCWImage
 parent_title: 2.8 Method of Weighted Residuals
 parent_type: CourseSection
+parent_uid: bda18124-71a5-87a7-513f-cb81480a1e18
 resourcetype: Image
 title: MWR_phi.png
 uid: 8f627342-6ba2-9329-00d2-8b286275f277

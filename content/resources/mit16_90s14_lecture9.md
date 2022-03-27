@@ -9,6 +9,7 @@ learning_resource_types:
 ocw_type: OCWFile
 parent_title: Lecture Notes
 parent_type: CourseSection
+parent_uid: 88a44a6b-ab5e-a4b6-5c5c-1379cb3476ce
 resourcetype: Document
 title: 'Lecture 9 Notes: Numerical Methods of PDEs: Finite Difference Methods 2'
 uid: e357743e-b42c-8507-c5a3-c162889b1669

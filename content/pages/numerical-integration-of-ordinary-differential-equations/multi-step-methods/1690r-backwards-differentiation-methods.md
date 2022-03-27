@@ -256,6 +256,7 @@ MATLAB{{< sup "®" >}}'s ODE Integrators
 
 MATLAB has a a set of tools for integration of ODE's. We will briefly look at two of them: **ode45** and **ode15s**. **ode45** is designed to solve problems that are not stiff while **ode15s** is intended for stiff problems. **ode45** is based on a four and five-stage Runge-Kutta integration (discussed in Section [1.9]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/runge-kutta-methods)), while **ode15s** is based on a range of highly stable implicit integration formulas (one option when using **ode15s** is to use the backwards differentiation formulas). As a short illustration on how these MATLAB ODE integrators are implemented, the following script solves the one-dimensional diffusion problem from Section [1.7.1]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/stiffness-and-implicit-methods) using either **ode45** or **ode15s**. The specific problem we consider here is a bar which is initially at a temperature \\(T\_{init} = 400 K\\) and at \\(t=0\\), the temperature at the left and right ends is suddenly raised to \\(800 K\\) and \\(1000 K\\), respectively.
 
+```
 % MATLAB script: dif1d\_main.m
 %
 % This code solve the one-dimensional heat diffusion equation
@@ -351,8 +352,11 @@ plot(t,Tmid);
 xlabel('t');
 ylabel('T at midpoint');
 
+```
+
 As can be seen, this script pre-computes the linear system \\(A\\) and the column vector \\(b\\) since the forcing function for the one-dimensional diffusion problem can be written as the linear function, \\(f = Av + b\\). Then, when calling either ODE integrator, the function which returns \\(f\\) is the first argument in the call and is named, **dif1d\_fun**. This function is given below:
 
+```
 % MATLAB function: dif1d\_fun.m
 %
 % This routine returns the forcing term for
@@ -367,6 +371,8 @@ As can be seen, this script pre-computes the linear system \\(A\\) and the colum
 function \[f\] = dif1d\_fun(t, v, A, b)
 
 f = A\*v + b;
+
+```
 
 As can be seen from **dif1d\_fun**, \\(A\\) and \\(b\\) have been passed into the function and thus the calculation of \\(f\\) simply requires the multiplication of \\(v\\) by \\(A\\) and the addition of \\(b\\).
 

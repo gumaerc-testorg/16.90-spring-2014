@@ -1,6 +1,7 @@
 ---
 content_type: resource
 description: ''
+end_time: ''
 file: null
 learning_resource_types:
 - Lecture Videos
@@ -12,6 +13,7 @@ parent_type: CourseSection
 related_resources_text: ''
 resource_index_text: ''
 resourcetype: Video
+start_time: ''
 title: 'Session 3: Numerical Integration of ODEs: Accuracy and a pendulum problem'
 uid: 48c8ddc2-d7fc-1355-559c-6992247518ef
 video_files:

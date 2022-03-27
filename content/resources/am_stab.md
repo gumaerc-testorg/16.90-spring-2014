@@ -11,6 +11,7 @@ learning_resource_types: []
 ocw_type: OCWImage
 parent_title: 1.8 Multi-Step Methods
 parent_type: CourseSection
+parent_uid: 75e73977-a306-f553-2134-b4e0a24fdb81
 resourcetype: Image
 title: am_stab.png
 uid: c5b34db6-e905-9a95-6bed-1aab4aa2492b

@@ -11,6 +11,7 @@ learning_resource_types: []
 ocw_type: OCWImage
 parent_title: 2.9 Introduction to Finite Elements
 parent_type: CourseSection
+parent_uid: 876be530-ac05-3384-5428-281b2b3c5b68
 resourcetype: Image
 title: MITprob.png
 uid: 30aa9e68-44f1-625b-47ae-714b6219da8b

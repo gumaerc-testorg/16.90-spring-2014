@@ -11,6 +11,7 @@ learning_resource_types: []
 ocw_type: OCWImage
 parent_title: 1.7 Stiffness and Implicit Methods
 parent_type: CourseSection
+parent_uid: 935324e3-1ab2-cb57-9059-0ba1f034fcd5
 resourcetype: Image
 title: be_stab.png
 uid: 990b5085-d189-e06d-5f7f-7e0dc9ef7aa8

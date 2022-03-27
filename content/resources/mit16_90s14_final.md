@@ -8,6 +8,7 @@ learning_resource_types:
 ocw_type: OCWFile
 parent_title: Exams
 parent_type: CourseSection
+parent_uid: e557ef78-084f-8ac1-fc20-05a2eb55fb95
 resourcetype: Document
 title: 16.90 2014 Final Exam
 uid: 360cfee0-4b92-bce1-3e3c-c91feb9cff1e
