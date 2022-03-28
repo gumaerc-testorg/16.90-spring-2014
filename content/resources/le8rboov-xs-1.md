@@ -5,6 +5,7 @@ file: /media/courses/16-90-computational-methods-in-aerospace-engineering-spring
 file_type: application/pdf
 learning_resource_types: []
 ocw_type: OCWFile
+parent_uid: null
 resourcetype: Document
 title: 3play pdf file
 uid: fa68aba3-eaf8-a97b-d4a2-ce7d552c192b

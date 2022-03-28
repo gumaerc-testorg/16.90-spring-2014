@@ -9,13 +9,13 @@ title: 2.11 The Finite Element Method for Two-Dimensional Diffusion
 uid: d29ce1ed-3626-60b8-be9b-f2741bbc6ee9
 ---
 
-*   [\<Differentiation using the Reference Element]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/the-finite-element-method-for-two-dimensional-diffusion/1690r-differentiation-using-the-reference-element)
-*   [2.11.1Overview]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/the-finite-element-method-for-two-dimensional-diffusion)
-*   [2.11.2Reference Element and Linear Elements]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/the-finite-element-method-for-two-dimensional-diffusion/1690r-reference-element-and-linear-elements)
-*   [2.11.3Differentiation using the Reference Element]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/the-finite-element-method-for-two-dimensional-diffusion/1690r-differentiation-using-the-reference-element)
-*   [2.11.4Construction of the Stiffness Matrix]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/the-finite-element-method-for-two-dimensional-diffusion/1690r-construction-of-the-stiffness-matrix)
-*   [2.11.5Integration in the Reference Element]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/the-finite-element-method-for-two-dimensional-diffusion/1690r-integration-in-the-reference-element)
-*   [\>Integration in the Reference Element]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/the-finite-element-method-for-two-dimensional-diffusion/1690r-integration-in-the-reference-element)
+*   {{< resource_link 6075ecc5-d133-cbcb-277c-06977e6970ea "\<Differentiation using the Reference Element" >}}
+*   {{< resource_link c782bcc9-abb3-f6bc-c638-027dfffdc386 "2.11.1Overview" >}}
+*   {{< resource_link 16176028-e869-5612-f636-568d503833fc "2.11.2Reference Element and Linear Elements" >}}
+*   {{< resource_link 6075ecc5-d133-cbcb-277c-06977e6970ea "2.11.3Differentiation using the Reference Element" >}}
+*   {{< resource_link d29ce1ed-3626-60b8-be9b-f2741bbc6ee9 "2.11.4Construction of the Stiffness Matrix" >}}
+*   {{< resource_link cd2d971f-e847-d266-f0b1-555caab639d4 "2.11.5Integration in the Reference Element" >}}
+*   {{< resource_link cd2d971f-e847-d266-f0b1-555caab639d4 "\>Integration in the Reference Element" >}}
 
 2.11.4 Construction of the Stiffness Matrix
 -------------------------------------------
@@ -37,7 +37,7 @@ The stiffness matrix arises in the calculation of \\(\\int \_{\\Omega } \\nabla 
 
 {{< tableclose >}}
 
-where \\(\\Omega \_ e\\) is spatial domain for a specific element. As described in Section [2.11.3]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/the-finite-element-method-for-two-dimensional-diffusion/1690r-differentiation-using-the-reference-element), the gradient of \\(\\tilde{T}\\) can be written,
+where \\(\\Omega \_ e\\) is spatial domain for a specific element. As described in Section {{< resource_link 6075ecc5-d133-cbcb-277c-06977e6970ea "2.11.3" >}}, the gradient of \\(\\tilde{T}\\) can be written,
 
 {{< tableopen >}}
 {{< tropen >}}

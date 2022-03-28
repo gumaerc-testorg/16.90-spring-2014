@@ -9,13 +9,13 @@ title: 1.2 Discretizing ODEs
 uid: 9b1b577d-12e2-e60d-75d3-f8fb6ed609d5
 ---
 
-*   [\<Discretization]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/discretizing-odes/1690r-discretization)
-*   [1.2.1First-Order ODEs]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/discretizing-odes)
-*   [1.2.2An Example of First Order ODE]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/discretizing-odes/1690r-an-example-of-first-order-ode)
-*   [1.2.3Discretization]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/discretizing-odes/1690r-discretization)
-*   [1.2.4The Forward Euler Method]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/discretizing-odes/1690r-the-forward-euler-method)
-*   [1.2.5The Midpoint Method]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/discretizing-odes/1690r-the-midpoint-method)
-*   [\>The Midpoint Method]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/discretizing-odes/1690r-the-midpoint-method)
+*   {{< resource_link 0baef83e-dfb4-b312-66ed-4f9fe5c876ba "\<Discretization" >}}
+*   {{< resource_link f239c31a-53e6-28b3-a06a-8e6fff5ed57c "1.2.1First-Order ODEs" >}}
+*   {{< resource_link 18e3e2fd-45b7-38b5-b9bb-4940200d150a "1.2.2An Example of First Order ODE" >}}
+*   {{< resource_link 0baef83e-dfb4-b312-66ed-4f9fe5c876ba "1.2.3Discretization" >}}
+*   {{< resource_link 9b1b577d-12e2-e60d-75d3-f8fb6ed609d5 "1.2.4The Forward Euler Method" >}}
+*   {{< resource_link ae250ef9-53d1-78da-8810-f88b0aaa6408 "1.2.5The Midpoint Method" >}}
+*   {{< resource_link ae250ef9-53d1-78da-8810-f88b0aaa6408 "\>The Midpoint Method" >}}
 
 1.2.4 The Forward Euler Method
 ------------------------------
@@ -203,7 +203,7 @@ At that altitude, the properties of the atmosphere are:
 
 {{< tableclose >}}
 
-We expect the particle to accelerate until it reaches its terminal velocity which will occur when the drag force is equal to the gravitational force. But, a priori, we do not know how long that will take (in class, we will discuss some ways to make this estimate). For now, let's set \\(T= 25\\, sec\\) and use a timestep of \\({\\Delta t}= 0.25\\, sec\\). The results are shown in Figure [1.2]({{< baseurl >}}/resources/ice_fe).
+We expect the particle to accelerate until it reaches its terminal velocity which will occur when the drag force is equal to the gravitational force. But, a priori, we do not know how long that will take (in class, we will discuss some ways to make this estimate). For now, let's set \\(T= 25\\, sec\\) and use a timestep of \\({\\Delta t}= 0.25\\, sec\\). The results are shown in Figure {{< resource_link 487b31d3-d2ad-4959-06b8-d544163ada30 "1.2" >}}.
 
 ![This figure shows three bar graphs that represent the behavior of velocity, Reynolds number, and drag coefficient as a function of time for an ice particle falling through the atmosphere. This simulation was performed using the forward Euler method with Δt=0.25sec.]({{< resource_file 487b31d3-d2ad-4959-06b8-d544163ada30 >}})
 

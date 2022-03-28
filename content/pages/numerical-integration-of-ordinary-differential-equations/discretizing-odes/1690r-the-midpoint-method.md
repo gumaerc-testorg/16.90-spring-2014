@@ -9,13 +9,13 @@ title: 1.2 Discretizing ODEs
 uid: ae250ef9-53d1-78da-8810-f88b0aaa6408
 ---
 
-*   [\<The Forward Euler Method]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/discretizing-odes/1690r-the-forward-euler-method)
-*   [1.2.1First-Order ODEs]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/discretizing-odes)
-*   [1.2.2An Example of First Order ODE]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/discretizing-odes/1690r-an-example-of-first-order-ode)
-*   [1.2.3Discretization]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/discretizing-odes/1690r-discretization)
-*   [1.2.4The Forward Euler Method]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/discretizing-odes/1690r-the-forward-euler-method)
-*   [1.2.5The Midpoint Method]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/discretizing-odes/1690r-the-midpoint-method)
-*   [\>Order of Accuracy]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/order-of-accuracy)
+*   {{< resource_link 9b1b577d-12e2-e60d-75d3-f8fb6ed609d5 "\<The Forward Euler Method" >}}
+*   {{< resource_link f239c31a-53e6-28b3-a06a-8e6fff5ed57c "1.2.1First-Order ODEs" >}}
+*   {{< resource_link 18e3e2fd-45b7-38b5-b9bb-4940200d150a "1.2.2An Example of First Order ODE" >}}
+*   {{< resource_link 0baef83e-dfb4-b312-66ed-4f9fe5c876ba "1.2.3Discretization" >}}
+*   {{< resource_link 9b1b577d-12e2-e60d-75d3-f8fb6ed609d5 "1.2.4The Forward Euler Method" >}}
+*   {{< resource_link ae250ef9-53d1-78da-8810-f88b0aaa6408 "1.2.5The Midpoint Method" >}}
+*   {{< resource_link a3fbfbbd-e140-393b-aed5-af945a9316f9 "\>Order of Accuracy" >}}
 
 1.2.5 The Midpoint Method
 -------------------------
@@ -84,13 +84,13 @@ Then, following the same process as in the forward Euler method, we arrive at th
 
 However, because of the use of \\(v^{n-1}\\), the midpont method can only be applied for \\(n \\geq 1\\). Thus, for the first timestep a different numerical method must be applied (e.g. the forward Euler method).
 
-We will now solve the falling ice problem using the midpoint method. Using the same values of \\({\\Delta t}\\) and \\(T\\) as before, the results are shown in Figure [1.3]({{< baseurl >}}/resources/ice_mp).
+We will now solve the falling ice problem using the midpoint method. Using the same values of \\({\\Delta t}\\) and \\(T\\) as before, the results are shown in Figure {{< resource_link aabcb5a5-6cc7-a1aa-bf4b-4d66ea7116d6 "1.3" >}}.
 
 ![This figure shows three bar graphs that represent the behavior of velocity, Reynolds number, and drag coefficient as a function of time for an ice particle falling through the atmosphere. This simulation was performed using the midpoint method with Δt=0.25sec.]({{< resource_file aabcb5a5-6cc7-a1aa-bf4b-4d66ea7116d6 >}})
 
 **Figure 1.3**: Behavior of velocity, Reynolds number, and drag coefficient as a function of time for an ice particle falling through the atmosphere. Simulation performed using the midpoint method with \\({\\Delta t}= 0.25\\, sec\\).
 
-Clearly, something has gone wrong here as the results show non-physical oscillations. Perhaps the oscillations will disappear if we take a smaller timestep. To test out this hypothesis, let's re-run the midpoint method with \\({\\Delta t}= 0.025\\, sec\\) which is one-tenth the previous timestep. Those results are shown in Figure [1.4]({{< baseurl >}}/resources/ice_mp_smalldt). Unfortunately, while the results are better, the oscillations are clearly still present. For this problem, clearly the forward Euler method is a better choice than the midpoint method. We will see why this has happened in a few lectures.
+Clearly, something has gone wrong here as the results show non-physical oscillations. Perhaps the oscillations will disappear if we take a smaller timestep. To test out this hypothesis, let's re-run the midpoint method with \\({\\Delta t}= 0.025\\, sec\\) which is one-tenth the previous timestep. Those results are shown in Figure {{< resource_link 415431b8-629e-b6a5-21b8-3d83f0b2d5ed "1.4" >}}. Unfortunately, while the results are better, the oscillations are clearly still present. For this problem, clearly the forward Euler method is a better choice than the midpoint method. We will see why this has happened in a few lectures.
 
 ![This figure shows three bar graphs that represent the Behavior of velocity, Reynolds number, and drag coefficient as a function of time for an ice particle falling through the atmosphere. Simulation performed using the midpoint method with Δt=0.025sec.]({{< resource_file 415431b8-629e-b6a5-21b8-3d83f0b2d5ed >}})
 

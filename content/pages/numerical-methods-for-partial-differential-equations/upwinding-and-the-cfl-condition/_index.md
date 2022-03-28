@@ -9,10 +9,10 @@ title: 2.6 Upwinding and the CFL Condition
 uid: ce70b6b2-dea9-62c9-1d8e-4789958e4499
 ---
 
-*   [\<Finite Volume Method for Nonlinear Systems]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-volume-methods/1690r-finite-volume-method-for-nonlinear-systems)
-*   [2.6.1Upwinding]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/upwinding-and-the-cfl-condition)
-*   [2.6.2The CFL Condition]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/upwinding-and-the-cfl-condition/1690r-the-cfl-condition)
-*   [\>The CFL Condition]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/upwinding-and-the-cfl-condition/1690r-the-cfl-condition)
+*   {{< resource_link eaeacad2-dafd-9383-3c0e-0227dade769c "\<Finite Volume Method for Nonlinear Systems" >}}
+*   {{< resource_link ce70b6b2-dea9-62c9-1d8e-4789958e4499 "2.6.1Upwinding" >}}
+*   {{< resource_link cf738358-ae33-664a-5d71-baadd24f92cb "2.6.2The CFL Condition" >}}
+*   {{< resource_link cf738358-ae33-664a-5d71-baadd24f92cb "\>The CFL Condition" >}}
 
 2.6.1 Upwinding
 ---------------
@@ -73,7 +73,7 @@ For simplicity, we will consider the specific case in which \\(u>0\\). Recall th
 
 {{< tableclose >}}
 
-This is graphically depicted in Figure [2.16]({{< baseurl >}}/resources/soldepftcs). This numerical scheme has no inherent directionality as it uses a derivative approximation that is centered, taking equal (magnitude) weights from nodes to the left and right.
+This is graphically depicted in Figure {{< resource_link 6ae2bbcc-341c-d9f3-ea72-604dc4fdc5b6 "2.16" >}}. This numerical scheme has no inherent directionality as it uses a derivative approximation that is centered, taking equal (magnitude) weights from nodes to the left and right.
 
 ![The graph, generated using the Forward Time-Central Space method, shows points at intersections of the x and y axes, which all refer to one centered derivative approximation.]({{< resource_file 6ae2bbcc-341c-d9f3-ea72-604dc4fdc5b6 >}})
 
@@ -106,7 +106,7 @@ Now consider the Forward Time-Backward Space (FTBS) method. It uses the backward
 
 {{< tableclose >}}
 
-The method is graphically depicted in Figure [2.17]({{< baseurl >}}/resources/soldepftbs).
+The method is graphically depicted in Figure {{< resource_link 6d38b6b6-d2bb-cf0d-e758-3d863fc5b9d2 "2.17" >}}.
 
 ![This graph, generated using the Forward Time-Backward Space method, shows points at the intersections of the x and y axes, which all refer to one centered derivative approximation.  The graph shows how the numerical scheme is now biased to upstream values.]({{< resource_file 6d38b6b6-d2bb-cf0d-e758-3d863fc5b9d2 >}})
 

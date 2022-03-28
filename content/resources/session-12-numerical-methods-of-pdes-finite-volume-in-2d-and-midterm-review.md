@@ -1,19 +1,19 @@
 ---
 content_type: resource
 description: ''
-end_time: ''
 file: null
 learning_resource_types:
 - Lecture Videos
+ocw_type: ''
 optional_tab_title: Lecture Notes
 optional_text: '![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[Numerical
   Methods of PDEs: Finite Volume in 2D and Midterm Review (PDF - 1.8MB)](resources/mit16_90s14_lecture12)'
 parent_title: Lecture Videos
 parent_type: CourseSection
+parent_uid: null
 related_resources_text: ''
 resource_index_text: ''
 resourcetype: Video
-start_time: ''
 title: 'Session 12: Numerical Methods of PDEs: Finite Volume in 2D and Midterm Review'
 uid: 02f302e0-4387-7539-8792-b31bbec42980
 video_files:

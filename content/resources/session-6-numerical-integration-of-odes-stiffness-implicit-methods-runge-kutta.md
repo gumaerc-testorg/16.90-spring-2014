@@ -1,19 +1,19 @@
 ---
 content_type: resource
 description: ''
-end_time: ''
 file: null
 learning_resource_types:
 - Lecture Videos
+ocw_type: ''
 optional_tab_title: Lecture Notes
 optional_text: '![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[Numerical
   Integration of ODEs: Stiffness, Implicit Methods, Runge-kutta (PDF - 1.3MB)](resources/mit16_90s14_lecture6)'
 parent_title: Lecture Videos
 parent_type: CourseSection
+parent_uid: null
 related_resources_text: ''
 resource_index_text: ''
 resourcetype: Video
-start_time: ''
 title: 'Session 6: Numerical Integration of ODEs: Stiffness, Implicit Methods, Runge-Kutta'
 uid: 947c6f55-aad1-4893-5a11-bb3b8680890e
 video_files:

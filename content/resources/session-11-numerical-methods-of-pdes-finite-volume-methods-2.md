@@ -1,19 +1,19 @@
 ---
 content_type: resource
 description: ''
-end_time: ''
 file: null
 learning_resource_types:
 - Lecture Videos
+ocw_type: ''
 optional_tab_title: Lecture Notes
 optional_text: '![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[Numerical
   Methods of PDEs: Finite Volume Methods 2 (PDF)](resources/mit16_90s14_lecture11)'
 parent_title: Lecture Videos
 parent_type: CourseSection
+parent_uid: null
 related_resources_text: ''
 resource_index_text: ''
 resourcetype: Video
-start_time: ''
 title: 'Session 11: Numerical Methods of PDEs: Finite Volume Methods 2'
 uid: c794a141-0431-b1c1-beee-633b24e3abc9
 video_files:

@@ -1,19 +1,19 @@
 ---
 content_type: resource
 description: ''
-end_time: ''
 file: null
 learning_resource_types:
 - Lecture Videos
+ocw_type: ''
 optional_tab_title: Lecture Notes
 optional_text: '![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[Numerical
   Integration of ODEs: Stability and a Ballistics Problem (PDF)](resources/mit16_90s14_lecture4)'
 parent_title: Lecture Videos
 parent_type: CourseSection
+parent_uid: null
 related_resources_text: ''
 resource_index_text: ''
 resourcetype: Video
-start_time: ''
 title: 'Session 4: Numerical Integration of ODEs: Stability and a ballistics problem'
 uid: 3e80d294-7c11-c633-0492-1d680133c788
 video_files:

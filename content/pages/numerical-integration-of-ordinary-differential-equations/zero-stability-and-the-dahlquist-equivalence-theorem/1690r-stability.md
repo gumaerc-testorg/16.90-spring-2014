@@ -9,11 +9,11 @@ title: 1.5 Zero Stability and the Dahlquist Equivalence Theorem
 uid: 69a13333-afb5-90ee-d339-c7fba31529fd
 ---
 
-*   [\<Zero Stability and the Dahlquist Equivalence Theorem]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/zero-stability-and-the-dahlquist-equivalence-theorem)
-*   [1.5.1Consistency]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/zero-stability-and-the-dahlquist-equivalence-theorem)
-*   [1.5.2Stability]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/zero-stability-and-the-dahlquist-equivalence-theorem/1690r-stability)
-*   [1.5.3Dahlquist Equivalence Theorem]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/zero-stability-and-the-dahlquist-equivalence-theorem/1690r-dahlquist-equivalence-theorem)
-*   [\>Dahlquist Equivalence Theorem]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/zero-stability-and-the-dahlquist-equivalence-theorem/1690r-dahlquist-equivalence-theorem)
+*   {{< resource_link fab29380-eb66-91e4-e3ce-4dfce3f50fbe "\<Zero Stability and the Dahlquist Equivalence Theorem" >}}
+*   {{< resource_link fab29380-eb66-91e4-e3ce-4dfce3f50fbe "1.5.1Consistency" >}}
+*   {{< resource_link 69a13333-afb5-90ee-d339-c7fba31529fd "1.5.2Stability" >}}
+*   {{< resource_link e726e961-fd26-9620-907a-1248b173744d "1.5.3Dahlquist Equivalence Theorem" >}}
+*   {{< resource_link e726e961-fd26-9620-907a-1248b173744d "\>Dahlquist Equivalence Theorem" >}}
 
 1.5.2 Stability
 ---------------
@@ -92,7 +92,7 @@ where the superscript in the \\(z^ n\\) term is in fact a power. Note: \\(z\\) c
 Stability of Most Accurate Two-Step Method
 ------------------------------------------
 
-In Section [1.3.4]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/order-of-accuracy/1690r-definition-of-multi-step-methods) , the most accurate two-step, explicit method was found to be,
+In Section {{< resource_link 58553753-c9cc-c012-f030-d87844ae8db5 "1.3.4" >}} , the most accurate two-step, explicit method was found to be,
 
 {{< tableopen >}}
 {{< tropen >}}
@@ -154,7 +154,7 @@ Factoring this relationship gives,
 
 Thus, the recurrence relationship has roots at \\(z=1\\), \\(z = -5\\), and \\(z=0\\) (\\(n-1\\) of these roots). The root at \\(z=-5\\) will grow unbounded as \\(n\\) increases so this method is not stable. By the Dahlquist Equivalence Theorem, this means the method is not convergent (even though it has local accuracy \\(p=3\\) and is therefore consistent).
 
-To demonstrate the lack of convergence for this method (due to its lack of stability), we again consider the solution of \\(u\_ t = -u^2\\) with \\(u(0) = 1\\). These results are shown in Figure [1.7]({{< baseurl >}}/resources/ma2).
+To demonstrate the lack of convergence for this method (due to its lack of stability), we again consider the solution of \\(u\_ t = -u^2\\) with \\(u(0) = 1\\). These results are shown in Figure {{< resource_link 4aa54903-d378-e7e2-8ba3-c43a0f333781 "1.7" >}}.
 
 ![This figure shows two graphs that demonstrate the instability from the most-accurate explicit, two-step multi-step method.]({{< resource_file 4aa54903-d378-e7e2-8ba3-c43a0f333781 >}})
 

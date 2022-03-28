@@ -9,11 +9,11 @@ title: 1.4 Convergence
 uid: c1ab4737-a98d-26fb-dcee-7c83dfab47d4
 ---
 
-*   [\<Convergence]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/convergence)
-*   [1.4.1Types of Errors]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/convergence)
-*   [1.4.2Convergence of Numerical Methods]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/convergence/1690r-convergence-of-numerical-methods)
-*   [1.4.3Rate of Convergence Global Order of Accuracy]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/convergence/1690r-rate-of-convergence--global-order-of-accuracy-)
-*   [\>Rate of Convergence Global Order of Accuracy]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/convergence/1690r-rate-of-convergence--global-order-of-accuracy-)
+*   {{< resource_link 99ee39b7-79f4-9afb-0849-103c798f1c50 "\<Convergence" >}}
+*   {{< resource_link 99ee39b7-79f4-9afb-0849-103c798f1c50 "1.4.1Types of Errors" >}}
+*   {{< resource_link c1ab4737-a98d-26fb-dcee-7c83dfab47d4 "1.4.2Convergence of Numerical Methods" >}}
+*   {{< resource_link bc0d43fe-1169-e2be-34aa-cfba7fd50607 "1.4.3Rate of Convergence Global Order of Accuracy" >}}
+*   {{< resource_link bc0d43fe-1169-e2be-34aa-cfba7fd50607 "\>Rate of Convergence Global Order of Accuracy" >}}
 
 1.4.2 Convergence of Numerical Methods
 --------------------------------------

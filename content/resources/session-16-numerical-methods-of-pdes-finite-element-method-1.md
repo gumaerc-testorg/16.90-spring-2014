@@ -1,19 +1,19 @@
 ---
 content_type: resource
 description: ''
-end_time: ''
 file: null
 learning_resource_types:
 - Lecture Videos
+ocw_type: ''
 optional_tab_title: Lecture Notes
 optional_text: '![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[Numerical
   Methods of PDEs: Finite Element Method (PDF - 1.3MB)](resources/mit16_90s14_lecture16-18)'
 parent_title: Lecture Videos
 parent_type: CourseSection
+parent_uid: null
 related_resources_text: ''
 resource_index_text: ''
 resourcetype: Video
-start_time: ''
 title: 'Session 16: Numerical Methods of PDEs: Finite Element Method 1'
 uid: 62c18c90-f379-9ce6-175e-d05989576c0c
 video_files:

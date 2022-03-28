@@ -9,12 +9,12 @@ title: 3.3 Monte Carlo Methods
 uid: 91c4e401-232c-3823-cf38-1f612b323bb6
 ---
 
-*   [\<Monte Carlo Example]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/monte-carlo-methods/1690r-monte-carlo-example)
-*   [3.3.1Introduction]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/monte-carlo-methods)
-*   [3.3.2Monte Carlo Analysis]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/monte-carlo-methods/1690r-monte-carlo-analysis)
-*   [3.3.3Monte Carlo Example]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/monte-carlo-methods/1690r-monte-carlo-example)
-*   [3.3.4Inversion Method for Sampling]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/monte-carlo-methods/1690r-inversion-method-for-sampling)
-*   [\>Error Estimates for the Monte Carlo Method]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/error-estimates-for-the-monte-carlo-method)
+*   {{< resource_link 2ff49897-a168-59d4-5d17-feb89ff6fae6 "\<Monte Carlo Example" >}}
+*   {{< resource_link 2733fa33-374f-cb88-814c-413cb75b3483 "3.3.1Introduction" >}}
+*   {{< resource_link e4ed709d-1333-d460-e932-cde246cff19f "3.3.2Monte Carlo Analysis" >}}
+*   {{< resource_link 2ff49897-a168-59d4-5d17-feb89ff6fae6 "3.3.3Monte Carlo Example" >}}
+*   {{< resource_link 91c4e401-232c-3823-cf38-1f612b323bb6 "3.3.4Inversion Method for Sampling" >}}
+*   {{< resource_link 74bb46fc-55cb-5dc9-1f9b-7be6791726ec "\>Error Estimates for the Monte Carlo Method" >}}
 
 3.3.4 Inversion Method for Sampling
 -----------------------------------
@@ -56,7 +56,7 @@ and that the CDF is related to probability by,
 
 {{< tableclose >}}
 
-That is, the probability of the random variable \\(X \\leq x\\) is the CDF evaluated at \\(x\\). As shown in Figure [3.6]({{< baseurl >}}/resources/normcdf), \\(F(x)\\) ranges from 0 to 1.
+That is, the probability of the random variable \\(X \\leq x\\) is the CDF evaluated at \\(x\\). As shown in Figure {{< resource_link 4bdf2791-cc81-bf80-4a0f-f3bf8725c090 "3.6" >}}, \\(F(x)\\) ranges from 0 to 1.
 
 ![]({{< resource_file 4bdf2791-cc81-bf80-4a0f-f3bf8725c090 >}})
 

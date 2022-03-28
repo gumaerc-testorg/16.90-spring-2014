@@ -9,12 +9,12 @@ title: 3.3 Monte Carlo Methods
 uid: e4ed709d-1333-d460-e932-cde246cff19f
 ---
 
-*   [\<Monte Carlo Methods]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/monte-carlo-methods)
-*   [3.3.1Introduction]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/monte-carlo-methods)
-*   [3.3.2Monte Carlo Analysis]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/monte-carlo-methods/1690r-monte-carlo-analysis)
-*   [3.3.3Monte Carlo Example]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/monte-carlo-methods/1690r-monte-carlo-example)
-*   [3.3.4Inversion Method for Sampling]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/monte-carlo-methods/1690r-inversion-method-for-sampling)
-*   [\>Monte Carlo Example]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/monte-carlo-methods/1690r-monte-carlo-example)
+*   {{< resource_link 2733fa33-374f-cb88-814c-413cb75b3483 "\<Monte Carlo Methods" >}}
+*   {{< resource_link 2733fa33-374f-cb88-814c-413cb75b3483 "3.3.1Introduction" >}}
+*   {{< resource_link e4ed709d-1333-d460-e932-cde246cff19f "3.3.2Monte Carlo Analysis" >}}
+*   {{< resource_link 2ff49897-a168-59d4-5d17-feb89ff6fae6 "3.3.3Monte Carlo Example" >}}
+*   {{< resource_link 91c4e401-232c-3823-cf38-1f612b323bb6 "3.3.4Inversion Method for Sampling" >}}
+*   {{< resource_link 2ff49897-a168-59d4-5d17-feb89ff6fae6 "\>Monte Carlo Example" >}}
 
 3.3.2 Monte Carlo Analysis
 --------------------------
@@ -25,7 +25,7 @@ In this lecture, we begin our exploration of probabilistic methods, i.e., numeri
 
 Why are probabilistic methods important for engineering analysis and design? More and more there is a realization of the importance of analyzing and managing uncertainty in engineering systems. There are many sources of uncertainty, including uncertain technology performance (especially for advanced technologies whose performance may not be proven in the field), variability due to manufacturing processes, uncertain operating conditions (e.g., weather conditions, wind gusts), and uncertainty due to limitations in the models we use. To be able to design robust, reliable, high-performance systems, we need to be able to analyze how all these different sources of uncertainty affect our system.
 
-To make our discussion concrete, we will consider a simplified model for the heat transfer through a cooled turbine blade as shown in Figure [3.2]({{< baseurl >}}/resources/turb_blade2).
+To make our discussion concrete, we will consider a simplified model for the heat transfer through a cooled turbine blade as shown in Figure {{< resource_link 77e998ea-9c47-ce82-94c8-a0ce4566c023 "3.2" >}}.
 
 ![The schematic shows a cross-section of a turbine blade, where the wider part of the blade is labeled Tcool, and the inner, thinner part of the blade is labeled as thermal barrier.]({{< resource_file 77e998ea-9c47-ce82-94c8-a0ce4566c023 >}})
 

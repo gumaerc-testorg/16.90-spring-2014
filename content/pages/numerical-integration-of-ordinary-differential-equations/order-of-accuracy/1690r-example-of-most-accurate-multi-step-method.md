@@ -9,13 +9,13 @@ title: 1.3 Order of Accuracy
 uid: ff3b4491-f1d1-d23e-2d3a-939de701c5c2
 ---
 
-*   [\<Definition of Multi-Step Methods]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/order-of-accuracy/1690r-definition-of-multi-step-methods)
-*   [1.3.1Errors]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/order-of-accuracy)
-*   [1.3.2Local Truncation Error]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/order-of-accuracy/1690r-local-truncation-error)
-*   [1.3.3Local Order of Accuracy]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/order-of-accuracy/1690r-local-order-of-accuracy)
-*   [1.3.4Definition of Multi-Step Methods]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/order-of-accuracy/1690r-definition-of-multi-step-methods)
-*   [1.3.5Example of Most Accurate Multi-Step Method]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/order-of-accuracy/1690r-example-of-most-accurate-multi-step-method)
-*   [\>Convergence]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/convergence)
+*   {{< resource_link 58553753-c9cc-c012-f030-d87844ae8db5 "\<Definition of Multi-Step Methods" >}}
+*   {{< resource_link a3fbfbbd-e140-393b-aed5-af945a9316f9 "1.3.1Errors" >}}
+*   {{< resource_link 6121a3ca-d8f1-c652-7821-6a952ea8ff2c "1.3.2Local Truncation Error" >}}
+*   {{< resource_link 09523d4b-aafc-8f4c-e9b7-d3d67ad30e7b "1.3.3Local Order of Accuracy" >}}
+*   {{< resource_link 58553753-c9cc-c012-f030-d87844ae8db5 "1.3.4Definition of Multi-Step Methods" >}}
+*   {{< resource_link ff3b4491-f1d1-d23e-2d3a-939de701c5c2 "1.3.5Example of Most Accurate Multi-Step Method" >}}
+*   {{< resource_link 99ee39b7-79f4-9afb-0849-103c798f1c50 "\>Convergence" >}}
 
 1.3.5 Example of Most Accurate Multi-Step Method
 ------------------------------------------------
@@ -155,9 +155,7 @@ To find the most accurate multi-step method of the given form, we solve for the 
 
 **Exercise 1** Use MATLAB{{< sup "®" >}}'s backslash command in the form
 
-```
  x= A\\b 
-```
 
 {{< quiz_multiple_choice questionId="Q1_div" >}}{{< quiz_choices >}}{{< quiz_choice isCorrect="false" >}}&nbsp; \\(\[4,-5,2,4\]\\) &nbsp;{{< /quiz_choice >}}
 {{< quiz_choice isCorrect="false" >}}&nbsp; \\(\[1,0,-1,5\]\\) &nbsp;{{< /quiz_choice >}}

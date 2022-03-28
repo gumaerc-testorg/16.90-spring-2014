@@ -9,12 +9,12 @@ title: 2.8 Method of Weighted Residuals
 uid: 2bb791a5-f105-8421-b20e-147e46034287
 ---
 
-*   [\<The Collocation Method]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/method-of-weighted-residuals/1690r-the-collocation-method)
-*   [2.8.1Functional Approximation of the Solution]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/method-of-weighted-residuals)
-*   [2.8.2The Collocation Method]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/method-of-weighted-residuals/1690r-the-collocation-method)
-*   [2.8.3The Method of Weighted Residuals]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/method-of-weighted-residuals/1690r-the-method-of-weighted-residuals)
-*   [2.8.4Galerkin Method with New Basis]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/method-of-weighted-residuals/1690r-galerkin-method-with-new-basis)
-*   [\>Galerkin Method with New Basis]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/method-of-weighted-residuals/1690r-galerkin-method-with-new-basis)
+*   {{< resource_link 06f65fc2-70a3-d410-b331-d186ad67852a "\<The Collocation Method" >}}
+*   {{< resource_link bda18124-71a5-87a7-513f-cb81480a1e18 "2.8.1Functional Approximation of the Solution" >}}
+*   {{< resource_link 06f65fc2-70a3-d410-b331-d186ad67852a "2.8.2The Collocation Method" >}}
+*   {{< resource_link 2bb791a5-f105-8421-b20e-147e46034287 "2.8.3The Method of Weighted Residuals" >}}
+*   {{< resource_link b85dba09-9fd2-582c-61f1-a5573f5c79a5 "2.8.4Galerkin Method with New Basis" >}}
+*   {{< resource_link b85dba09-9fd2-582c-61f1-a5573f5c79a5 "\>Galerkin Method with New Basis" >}}
 
 2.8.3 The Method of Weighted Residuals
 --------------------------------------

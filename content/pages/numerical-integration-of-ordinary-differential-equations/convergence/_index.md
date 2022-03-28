@@ -9,11 +9,11 @@ title: 1.4 Convergence
 uid: 99ee39b7-79f4-9afb-0849-103c798f1c50
 ---
 
-*   [\<Example of Most Accurate Multi-Step Method]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/order-of-accuracy/1690r-example-of-most-accurate-multi-step-method)
-*   [1.4.1Types of Errors]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/convergence)
-*   [1.4.2Convergence of Numerical Methods]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/convergence/1690r-convergence-of-numerical-methods)
-*   [1.4.3Rate of Convergence Global Order of Accuracy]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/convergence/1690r-rate-of-convergence--global-order-of-accuracy-)
-*   [\>Convergence of Numerical Methods]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/convergence/1690r-convergence-of-numerical-methods)
+*   {{< resource_link ff3b4491-f1d1-d23e-2d3a-939de701c5c2 "\<Example of Most Accurate Multi-Step Method" >}}
+*   {{< resource_link 99ee39b7-79f4-9afb-0849-103c798f1c50 "1.4.1Types of Errors" >}}
+*   {{< resource_link c1ab4737-a98d-26fb-dcee-7c83dfab47d4 "1.4.2Convergence of Numerical Methods" >}}
+*   {{< resource_link bc0d43fe-1169-e2be-34aa-cfba7fd50607 "1.4.3Rate of Convergence Global Order of Accuracy" >}}
+*   {{< resource_link c1ab4737-a98d-26fb-dcee-7c83dfab47d4 "\>Convergence of Numerical Methods" >}}
 
 1.4.1 Types of Errors
 ---------------------

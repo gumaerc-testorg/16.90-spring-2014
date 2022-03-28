@@ -1,19 +1,19 @@
 ---
 content_type: resource
 description: ''
-end_time: ''
 file: null
 learning_resource_types:
 - Lecture Videos
+ocw_type: ''
 optional_tab_title: Lecture Notes
 optional_text: '![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[Numerical
   Integration of ODEs: Approximating Time Derivative (PDF - 1.8MB)](resources/mit16_90s14_lecture2)'
 parent_title: Lecture Videos
 parent_type: CourseSection
+parent_uid: null
 related_resources_text: ''
 resource_index_text: ''
 resourcetype: Video
-start_time: ''
 title: 'Session 2: Numerical Integration of ODEs: Approximating time derivative'
 uid: d3296ef7-67ae-c879-22d4-de3cd2722027
 video_files:

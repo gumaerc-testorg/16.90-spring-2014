@@ -1,19 +1,19 @@
 ---
 content_type: resource
 description: ''
-end_time: ''
 file: null
 learning_resource_types:
 - Lecture Videos
+ocw_type: ''
 optional_tab_title: Lecture Notes
 optional_text: '![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[Probabilistic
   Methods & Optimization: Statistical Sampling Methods (PDF - 1.5MB)](resources/mit16_90s14_lecture21)'
 parent_title: Lecture Videos
 parent_type: CourseSection
+parent_uid: null
 related_resources_text: ''
 resource_index_text: ''
 resourcetype: Video
-start_time: ''
 title: 'Session 21: Probabilistic Methods & Optimization: Statistical sampling methods'
 uid: 753f0a2f-1424-6c78-72ca-5ab157b69a42
 video_files:

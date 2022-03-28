@@ -9,19 +9,19 @@ title: 3.3 Monte Carlo Methods
 uid: 2ff49897-a168-59d4-5d17-feb89ff6fae6
 ---
 
-*   [\<Monte Carlo Analysis]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/monte-carlo-methods/1690r-monte-carlo-analysis)
-*   [3.3.1Introduction]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/monte-carlo-methods)
-*   [3.3.2Monte Carlo Analysis]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/monte-carlo-methods/1690r-monte-carlo-analysis)
-*   [3.3.3Monte Carlo Example]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/monte-carlo-methods/1690r-monte-carlo-example)
-*   [3.3.4Inversion Method for Sampling]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/monte-carlo-methods/1690r-inversion-method-for-sampling)
-*   [\>Inversion Method for Sampling]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/monte-carlo-methods/1690r-inversion-method-for-sampling)
+*   {{< resource_link e4ed709d-1333-d460-e932-cde246cff19f "\<Monte Carlo Analysis" >}}
+*   {{< resource_link 2733fa33-374f-cb88-814c-413cb75b3483 "3.3.1Introduction" >}}
+*   {{< resource_link e4ed709d-1333-d460-e932-cde246cff19f "3.3.2Monte Carlo Analysis" >}}
+*   {{< resource_link 2ff49897-a168-59d4-5d17-feb89ff6fae6 "3.3.3Monte Carlo Example" >}}
+*   {{< resource_link 91c4e401-232c-3823-cf38-1f612b323bb6 "3.3.4Inversion Method for Sampling" >}}
+*   {{< resource_link 91c4e401-232c-3823-cf38-1f612b323bb6 "\>Inversion Method for Sampling" >}}
 
 3.3.3 Monte Carlo Example
 -------------------------
 
 [Measurable Outcome 3.3]({{< baseurl >}}/pages/measurable-outcome-index/#anchorMO33), [Measurable Outcome 3.5]({{< baseurl >}}/pages/measurable-outcome-index/#anchorMO35)
 
-To demonstrate the Monte Carlo simulation method in more detail, let's consider the specific case where the thermal barrier coating in the previous turbine blade example is known to be uniformly distributed from \\(0.00025m \< L\_{TBC} \< 0.00075m\\) as shown from the probability density function (PDF) of LTBC in Figure [3.3]({{< baseurl >}}/resources/ltbc_uniform).
+To demonstrate the Monte Carlo simulation method in more detail, let's consider the specific case where the thermal barrier coating in the previous turbine blade example is known to be uniformly distributed from \\(0.00025m \< L\_{TBC} \< 0.00075m\\) as shown from the probability density function (PDF) of LTBC in Figure {{< resource_link 6c1cf0fd-d59a-b650-239b-04f487afbfe2 "3.3" >}}.
 
 ![The graph shows a line begins at 0 PDF(LTBC), which goes to 2000 PDF(LTBC), and returns to 0 PDF(LTBC).]({{< resource_file 6c1cf0fd-d59a-b650-239b-04f487afbfe2 >}})
 
@@ -52,7 +52,6 @@ This approach is used to create the samples shown as histograms in Figure 21.3 f
 
 The following is a MATLAB script that implements the Monte Carlo method for this uniform distribution of \\(L\_{TBC}\\). The distributions of \\(T\_{mh}\\) shown in Figure 3.5 correspond to the \\(L\_{TBC}\\) distributions shown in Figure 3.4 and were generated with this script.
 
-```
 clear all; 
 hgas = 3000; 
 Tgas = 1500; 
@@ -72,8 +71,6 @@ xlabel('\\(L\_{tbc}\\) (m)');
 figure(2); 
 hist(Tmh,20); 
 xlabel('\\(T\_{mh}\\) (K)'); 
-
-```
 
 ![The figure is a histogram of Tmh, given a uniformly distributed LTBC for a sample size of N=100.]({{< resource_file 6c76c91e-1dea-a929-8a3c-d41f939a10ac >}}) ![The figure is a histogram of Tmh, given a uniformly distributed LTBC for a sample size of N=1000.]({{< resource_file 4acf6f0a-3493-7663-293b-dada4937265a >}}) ![The figure is a histogram of Tmh, given a uniformly distributed LTBC for a sample size of N=10000.]({{< resource_file a4ae5c4d-684b-d20f-c089-2eb1d37fd728 >}})
 

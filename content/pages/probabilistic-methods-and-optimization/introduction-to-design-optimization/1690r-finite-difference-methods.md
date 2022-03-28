@@ -9,13 +9,13 @@ title: 3.6 Introduction to Design Optimization
 uid: c0e755e7-48fd-33db-4782-88b736e0381c
 ---
 
-*   [\<Unconstrained Gradient-Based Optimization Methods]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/introduction-to-design-optimization/1690r-unconstrained-gradient-based-optimization-methods)
-*   [3.6.1Design Optimization]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/introduction-to-design-optimization)
-*   [3.6.2Gradient Based Optimization]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/introduction-to-design-optimization/1690r-gradient-based-optimization)
-*   [3.6.3Unconstrained Gradient-Based Optimization Methods]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/introduction-to-design-optimization/1690r-unconstrained-gradient-based-optimization-methods)
-*   [3.6.4Finite Difference Methods]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/introduction-to-design-optimization/1690r-finite-difference-methods)
-*   [3.6.5The 1d Search]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/introduction-to-design-optimization/1690r-the-1d-search)
-*   [\>The 1d Search]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/introduction-to-design-optimization/1690r-the-1d-search)
+*   {{< resource_link da1cf617-8af1-53b1-4d4a-177f24979948 "\<Unconstrained Gradient-Based Optimization Methods" >}}
+*   {{< resource_link 6f317b0d-95c1-d32c-f178-c9fdbae632d2 "3.6.1Design Optimization" >}}
+*   {{< resource_link 1d39506a-8ae7-400e-107d-fe048008e5c2 "3.6.2Gradient Based Optimization" >}}
+*   {{< resource_link da1cf617-8af1-53b1-4d4a-177f24979948 "3.6.3Unconstrained Gradient-Based Optimization Methods" >}}
+*   {{< resource_link c0e755e7-48fd-33db-4782-88b736e0381c "3.6.4Finite Difference Methods" >}}
+*   {{< resource_link 3cde12b3-c306-b87c-973f-5af561f4875f "3.6.5The 1d Search" >}}
+*   {{< resource_link 3cde12b3-c306-b87c-973f-5af561f4875f "\>The 1d Search" >}}
 
 3.6.4 Finite Difference Method Applied to 1D Convection
 -------------------------------------------------------

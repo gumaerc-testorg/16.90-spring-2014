@@ -3,15 +3,16 @@ content_type: page
 learning_resource_types:
 - Projects
 ocw_type: CourseSection
+parent_uid: null
 title: Projects
 uid: f280d7dd-977c-7253-0f43-76c2e35fc1df
 ---
 
 Three programming projects are required. The projects focus on applying numerical algorithms to aerospace applications.
 
-1.  [Ordinary Differential Equations (PDF)]({{< baseurl >}}/resources/mit16_90s14_proj1)
-2.  [Partial Differential Equations (PDF)]({{< baseurl >}}/resources/mit16_90s14_project2)
-3.  [Probabilistic Methods and Optimization (PDF)]({{< baseurl >}}/resources/mit16_90s14_proj3_sol)
+1.  {{< resource_link 0c0d149a-da8a-bba1-1bd8-72fca20fa92d "Ordinary Differential Equations (PDF)" >}}
+2.  {{< resource_link a108d5be-5c93-201c-7d97-00fde5c40c29 "Partial Differential Equations (PDF)" >}}
+3.  {{< resource_link 87215889-ffb1-938f-bb6c-1ae7139df187 "Probabilistic Methods and Optimization (PDF)" >}}
 
 It is recommended that programming be done in MATLAB{{< sup "®" >}}. Each project will be assigned a letter grade based on the standard MIT letter grade descriptions (see [syllabus]({{< baseurl >}}/pages/syllabus#grading_1)).
 
@@ -27,8 +28,8 @@ Sample Student Projects
 
 (Courtesy of anonymous MIT student. Used with permission.)
 
-[Project 1 Sample (PDF)]({{< baseurl >}}/resources/mit16_90s14_af_project1)
+{{< resource_link 02043cd8-0201-4ca6-fcf5-8add4d3ffe4b "Project 1 Sample (PDF)" >}}
 
-[Project 2 Sample (PDF)]({{< baseurl >}}/resources/mit16_90s14_af_project2)
+{{< resource_link 29a9eceb-c070-d704-ff01-e0482fa0a334 "Project 2 Sample (PDF)" >}}
 
-[Project 3 Sample (PDF)]({{< baseurl >}}/resources/mit16_90s14_af_project3)
+{{< resource_link 8454df1d-0f53-6b20-2450-ba8600caec41 "Project 3 Sample (PDF)" >}}

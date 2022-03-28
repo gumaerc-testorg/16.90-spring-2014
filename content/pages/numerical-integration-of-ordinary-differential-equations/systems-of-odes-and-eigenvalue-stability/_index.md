@@ -9,12 +9,12 @@ title: 1.6 Systems of ODE's and Eigenvalue Stability
 uid: 36e637ce-d6ff-e05d-3606-0d537611ad2e
 ---
 
-*   [\<Dahlquist Equivalence Theorem]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/zero-stability-and-the-dahlquist-equivalence-theorem/1690r-dahlquist-equivalence-theorem)
-*   [1.6.1Nonlinear Systems]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/systems-of-odes-and-eigenvalue-stability)
-*   [1.6.2Linear Constant Coefficient Systems]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/systems-of-odes-and-eigenvalue-stability/1690r-linear-constant-coefficient-systems)
-*   [1.6.3Eigenvalue Stability for a Linear ODE]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/systems-of-odes-and-eigenvalue-stability/1690r-eigenvalue-stability-for-a-linear-ode)
-*   [1.6.4Imaginary Eigenvalues]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/systems-of-odes-and-eigenvalue-stability/1690r-imaginary-eigenvalues)
-*   [\>Linear Constant Coefficient Systems]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/systems-of-odes-and-eigenvalue-stability/1690r-linear-constant-coefficient-systems)
+*   {{< resource_link e726e961-fd26-9620-907a-1248b173744d "\<Dahlquist Equivalence Theorem" >}}
+*   {{< resource_link 36e637ce-d6ff-e05d-3606-0d537611ad2e "1.6.1Nonlinear Systems" >}}
+*   {{< resource_link e8dbfb22-04cb-6fc4-431e-0b32e5ea65da "1.6.2Linear Constant Coefficient Systems" >}}
+*   {{< resource_link 04ce95ca-3b3a-cc38-5d83-81923a3dd6fe "1.6.3Eigenvalue Stability for a Linear ODE" >}}
+*   {{< resource_link 64bbf174-0326-6a46-283d-2d2450cf7589 "1.6.4Imaginary Eigenvalues" >}}
+*   {{< resource_link e8dbfb22-04cb-6fc4-431e-0b32e5ea65da "\>Linear Constant Coefficient Systems" >}}
 
 1.6.1 Nonlinear Systems
 -----------------------
@@ -114,13 +114,13 @@ For this example,
 
 {{< tableclose >}}
 
-A forward Euler method was used to simulate the motion of a pendulum (with \\(L\\) = 1 m, \\(g = 9.8\\) m/sec\\(^2\\)) released from rest at an angle of \\(45^\\circ\\) at a timestep of \\({\\Delta t}= 0.02\\) seconds. The results are shown in Figure [1.8]({{< baseurl >}}/resources/nonpen_fe). While the oscillatory motion is evident, the amplitude is growing which is not expected physically. This would indicate some kind of numerical stability problem. Note, however, that if a smaller \\({\\Delta t}\\) were used, the amplification would still be present but not as significant.
+A forward Euler method was used to simulate the motion of a pendulum (with \\(L\\) = 1 m, \\(g = 9.8\\) m/sec\\(^2\\)) released from rest at an angle of \\(45^\\circ\\) at a timestep of \\({\\Delta t}= 0.02\\) seconds. The results are shown in Figure {{< resource_link 68cea58b-b729-83ae-c648-90d3e3ab02ba "1.8" >}}. While the oscillatory motion is evident, the amplitude is growing which is not expected physically. This would indicate some kind of numerical stability problem. Note, however, that if a smaller \\({\\Delta t}\\) were used, the amplification would still be present but not as significant.
 
 ![The graph shows the oscillation of a non-linear pendulum increases in amplitude when simulated using forward Euler.]({{< resource_file 68cea58b-b729-83ae-c648-90d3e3ab02ba >}})
 
 **Figure 1.8**: Forward Euler solution for nonlinear pendulum with \\(L\\) = 1 m, \\(g = 9.8\\) m/sec\\(^2\\), and \\({\\Delta t}= 0.02\\) seconds.
 
-The same problem was also simulated using the midpoint method. These results are shown in Figure [1.9]({{< baseurl >}}/resources/nonpen_mp). For this method and \\({\\Delta t}\\) choice, the oscillation amplitude is constant and indicates that the midpoint method is a better choice for this problem than the forward Euler method.
+The same problem was also simulated using the midpoint method. These results are shown in Figure {{< resource_link 77efec06-ade3-ce91-9e41-a7fca9df929c "1.9" >}}. For this method and \\({\\Delta t}\\) choice, the oscillation amplitude is constant and indicates that the midpoint method is a better choice for this problem than the forward Euler method.
 
 ![The graph shows the oscillation of a non-linear pendulum increases in amplitude when simulated using the midpoint method.]({{< resource_file 77efec06-ade3-ce91-9e41-a7fca9df929c >}})
 

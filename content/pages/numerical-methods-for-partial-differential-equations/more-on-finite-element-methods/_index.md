@@ -9,10 +9,10 @@ title: 2.10 More on Finite Element Methods
 uid: 62673265-55df-f200-dae2-644697a179db
 ---
 
-*   [\<Calculation of the Stiffness Matrix]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-elements/1690r-calculation-of-the-stiffness-matrix)
-*   [2.10.1Gaussian Quadrature]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/more-on-finite-element-methods)
-*   [2.10.2Boundary Conditions for Finite Elements]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/more-on-finite-element-methods/1690r-boundary-conditions-for-finite-elements)
-*   [\>Boundary Conditions for Finite Elements]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/more-on-finite-element-methods/1690r-boundary-conditions-for-finite-elements)
+*   {{< resource_link e47fb6af-9d83-9e3b-073e-b5053c6c2226 "\<Calculation of the Stiffness Matrix" >}}
+*   {{< resource_link 62673265-55df-f200-dae2-644697a179db "2.10.1Gaussian Quadrature" >}}
+*   {{< resource_link 365c70a7-4666-ed1c-d140-8aeb96bff4a6 "2.10.2Boundary Conditions for Finite Elements" >}}
+*   {{< resource_link 365c70a7-4666-ed1c-d140-8aeb96bff4a6 "\>Boundary Conditions for Finite Elements" >}}
 
 2.10.1 Gaussian Quadrature
 --------------------------
@@ -523,9 +523,8 @@ Note that the dependence of \\(\\phi \_ i\\) and \\(f\\) on \\(\\xi\\) is shown 
 
 Clearly, these functions vary linearly with \\(\\xi\\). \\(\\phi \_1(\\xi )\\) is one at \\(\\xi =-1\\) and decreases linearly to zero at \\(\\xi =+1\\). \\(\\phi \_2(\\xi )\\) is zero at \\(\\xi =-1\\) and increases linearly to one at \\(\\xi =+1\\).
 
-The following is a MATLAB{{< sup "®" >}} script that uses Gaussian quadrature to evaluate the forcing integral and solve the problem described in Section [2.8.1]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/method-of-weighted-residuals). The number of points being used is set at the beginning of the script. Results for both 1-point and 2-point quadrature are shown in Figures [2.41]({{< baseurl >}}/resources/n5_nq1)\-[2.46]({{< baseurl >}}/resources/error_nq2) for \\(5\\) and \\(10\\) elements. While the 2-point quadrature rule has lower error than the 1-point rule, both appear to be second-order accurate since the errors reduce by nearly a factor of \\(4\\) for the factor 2 change in mesh size. Also, the results are no longer exact at the nodes like they were in Section [2.9.3]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-elements/1690r-1-d-linear-elements-and-the-nodal-basis) (though the 2-point quadrature rules are quite close).
+The following is a MATLAB{{< sup "®" >}} script that uses Gaussian quadrature to evaluate the forcing integral and solve the problem described in Section {{< resource_link bda18124-71a5-87a7-513f-cb81480a1e18 "2.8.1" >}}. The number of points being used is set at the beginning of the script. Results for both 1-point and 2-point quadrature are shown in Figures {{< resource_link a09f0571-9f7d-a4ff-6865-9cbcfb0f9abb "2.41" >}}\-{{< resource_link 9503f5ea-2e24-4f2b-6101-b9cb54a4358e "2.46" >}} for \\(5\\) and \\(10\\) elements. While the 2-point quadrature rule has lower error than the 1-point rule, both appear to be second-order accurate since the errors reduce by nearly a factor of \\(4\\) for the factor 2 change in mesh size. Also, the results are no longer exact at the nodes like they were in Section {{< resource_link 03bb574d-085a-6995-0b35-3c2a70257228 "2.9.3" >}} (though the 2-point quadrature rules are quite close).
 
-```
 % FEM solver for d2T/dx2 + f = 0 where f = 50 exp(x)
 %
 % BC's: T(-1) = 100 and T(1) = 100.
@@ -664,9 +663,6 @@ figure(2);
 plot(xe,Terr);
 xlabel('x');
 ylabel('Error');
-
-
-```
 
 ![This graph shows two very similar lines, each with a single peak, that represent the exact solution and the finite element solution using Nq=1 point Gaussian quadrature with 5 elements.]({{< resource_file a09f0571-9f7d-a4ff-6865-9cbcfb0f9abb >}})
 

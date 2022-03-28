@@ -1,19 +1,19 @@
 ---
 content_type: resource
 description: ''
-end_time: ''
 file: null
 learning_resource_types:
 - Lecture Videos
+ocw_type: ''
 optional_tab_title: Lecture Notes
 optional_text: '[Probabilistic Methods & Optimization: Intro to Optimization Methods
   (PDF)](resources/mit16_90s14_lecture23)'
 parent_title: Lecture Videos
 parent_type: CourseSection
+parent_uid: null
 related_resources_text: ''
 resource_index_text: ''
 resourcetype: Video
-start_time: ''
 title: 'Session 23: Probabilistic Methods & Optimization: Intro to design optimization
   I'
 uid: 90a1ac47-13f4-7de2-17c8-2b87fab8f1d1

@@ -3,6 +3,7 @@ content_type: page
 learning_resource_types:
 - Assignments
 ocw_type: CourseSection
+parent_uid: null
 title: Homework Assignments
 uid: 99048963-e96c-fc63-b687-a36dcc5be4e1
 ---
@@ -31,13 +32,13 @@ Assignment
 {{< trclose >}}
 {{< tropen >}}
 {{< tdopen >}}
-[Homework 1 (PDF)]({{< baseurl >}}/resources/mit16_90s14_pset1)
+{{< resource_link 5fff3611-995f-23c4-a04e-c77345da8dc3 "Homework 1 (PDF)" >}}
 {{< tdclose >}}
 
 {{< trclose >}}
 {{< tropen >}}
 {{< tdopen >}}
-[Homework 2 (PDF)]({{< baseurl >}}/resources/mit16_90s14_pset2)
+{{< resource_link ddb14687-e0d7-8c6d-15f9-f93ac7f8d834 "Homework 2 (PDF)" >}}
 {{< tdclose >}}
 
 {{< trclose >}}
@@ -49,31 +50,31 @@ Assignment
 {{< trclose >}}
 {{< tropen >}}
 {{< tdopen >}}
-[Homework 3 (PDF)]({{< baseurl >}}/resources/mit16_90s14_pset3)
+{{< resource_link ef4621c3-1886-53bd-13aa-1b04e33cbd34 "Homework 3 (PDF)" >}}
 {{< tdclose >}}
 
 {{< trclose >}}
 {{< tropen >}}
 {{< tdopen >}}
-[Homework 4 (PDF)]({{< baseurl >}}/resources/mit16_90s14_pset4)
+{{< resource_link 05d5210c-0dab-62b0-e32e-370114f83fef "Homework 4 (PDF)" >}}
 {{< tdclose >}}
 
 {{< trclose >}}
 {{< tropen >}}
 {{< tdopen >}}
-[Homework 5 (PDF)]({{< baseurl >}}/resources/mit16_90s14_pset5)
+{{< resource_link c1973c49-2d2f-9ad7-2eca-4bcc575c64e4 "Homework 5 (PDF)" >}}
 {{< tdclose >}}
 
 {{< trclose >}}
 {{< tropen >}}
 {{< tdopen >}}
-[Homework 6 (PDF)]({{< baseurl >}}/resources/mit16_90s14_pset6)
+{{< resource_link 88b9f8df-7638-0fcd-ea58-60937ce9b083 "Homework 6 (PDF)" >}}
 {{< tdclose >}}
 
 {{< trclose >}}
 {{< tropen >}}
 {{< tdopen >}}
-[Homework 7 (PDF)]({{< baseurl >}}/resources/mit16_90s14_pset7)
+{{< resource_link 0f0fde62-4de9-cb3a-90d4-df759c57e343 "Homework 7 (PDF)" >}}
 {{< tdclose >}}
 
 {{< trclose >}}
@@ -87,9 +88,9 @@ Assignment
 {{< tdopen >}}
 
 
-[Homework 8 (PDF)]({{< baseurl >}}/resources/mit16_90s14_pset8)
+{{< resource_link 8aee4239-566e-d54d-f393-54f39ef0bd60 "Homework 8 (PDF)" >}}
 
-[blade1d.m (M)]({{< baseurl >}}/resources/blade1d)
+{{< resource_link ed4ee40a-5afb-c5a3-806f-779048694436 "blade1d.m (M)" >}}
 
 
 {{< tdclose >}}
@@ -97,7 +98,7 @@ Assignment
 {{< trclose >}}
 {{< tropen >}}
 {{< tdopen >}}
-[Homework 9 (PDF)]({{< baseurl >}}/resources/mit16_90s14_pset9)
+{{< resource_link f8b0b681-19e4-c6f8-ac71-b99f6d74df7c "Homework 9 (PDF)" >}}
 {{< tdclose >}}
 
 {{< trclose >}}

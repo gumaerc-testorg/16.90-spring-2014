@@ -1,18 +1,18 @@
 ---
 content_type: resource
 description: ''
-end_time: ''
 file: null
 learning_resource_types:
 - Lecture Videos
+ocw_type: ''
 optional_tab_title: Lecture Notes
 optional_text: '[Probabilistic Methods & Optimization: Sensitivity Analysis (PDF)](resources/mit16_90s14_lecture24)'
 parent_title: Lecture Videos
 parent_type: CourseSection
+parent_uid: null
 related_resources_text: ''
 resource_index_text: ''
 resourcetype: Video
-start_time: ''
 title: 'Session 24: Probabilistic Methods & Optimization: Intro to design optimization
   II'
 uid: 47ffea42-d4f2-e6df-dc2a-41e8d4e19d81

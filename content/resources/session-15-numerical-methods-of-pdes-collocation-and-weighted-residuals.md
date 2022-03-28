@@ -1,19 +1,19 @@
 ---
 content_type: resource
 description: ''
-end_time: ''
 file: null
 learning_resource_types:
 - Lecture Videos
+ocw_type: ''
 optional_tab_title: Lecture Notes
 optional_text: '![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[Numerical
   Methods of PDEs: Collocation and Weighted Residuals (PDF - 1.1MB)](resources/mit16_90s14_lecture15)'
 parent_title: Lecture Videos
 parent_type: CourseSection
+parent_uid: null
 related_resources_text: ''
 resource_index_text: ''
 resourcetype: Video
-start_time: ''
 title: 'Session 15: Numerical Methods of PDEs: Collocation and Weighted Residuals'
 uid: d043f5dd-c59e-8303-ffe8-b0fff282f32a
 video_files:

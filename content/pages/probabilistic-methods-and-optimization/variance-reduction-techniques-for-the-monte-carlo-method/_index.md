@@ -9,10 +9,10 @@ title: 3.5 Variance Reduction Techniques for the Monte Carlo Method
 uid: e719ff51-42ac-62fb-c38b-4410308e2feb
 ---
 
-*   [\<Bootstrapping]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/error-estimates-for-the-monte-carlo-method/1690r-bootstrapping)
-*   [3.5.1Monte Carlo Error as a Random Variable]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/variance-reduction-techniques-for-the-monte-carlo-method)
-*   [3.5.2Importance Sampling]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/variance-reduction-techniques-for-the-monte-carlo-method/1690r-importance-sampling)
-*   [\>Importance Sampling]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/variance-reduction-techniques-for-the-monte-carlo-method/1690r-importance-sampling)
+*   {{< resource_link 22e0637c-8322-5bd8-a9d4-e80723fbc928 "\<Bootstrapping" >}}
+*   {{< resource_link e719ff51-42ac-62fb-c38b-4410308e2feb "3.5.1Monte Carlo Error as a Random Variable" >}}
+*   {{< resource_link bb1256bc-6917-d853-f4c6-36ce5943967f "3.5.2Importance Sampling" >}}
+*   {{< resource_link bb1256bc-6917-d853-f4c6-36ce5943967f "\>Importance Sampling" >}}
 
 3.5.1 Monte Carlo Error as a Random Variable
 --------------------------------------------

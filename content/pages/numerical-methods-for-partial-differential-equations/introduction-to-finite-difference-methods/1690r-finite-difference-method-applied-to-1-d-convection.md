@@ -9,12 +9,12 @@ title: 2.3 Introduction to Finite Difference Methods
 uid: 431a74fb-7dca-19ce-0c6f-e4b6a0a6446d
 ---
 
-*   [\<Finite Difference Methods]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-difference-methods/1690r-finite-difference-methods)
-*   [2.3.1Finite Difference Approximations]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-difference-methods)
-*   [2.3.2Finite Difference Methods]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-difference-methods/1690r-finite-difference-methods)
-*   [2.3.3Finite Difference Method Applied to 1-D Convection]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-difference-methods/1690r-finite-difference-method-applied-to-1-d-convection)
-*   [2.3.4Forward Time-Backward Space FTBS]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-difference-methods/1690r-forward-time-backward-space--ftbs-)
-*   [\>Forward Time-Backward Space FTBS]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-difference-methods/1690r-forward-time-backward-space--ftbs-)
+*   {{< resource_link 2687d50f-29a8-875f-7b1d-d6bf668d5db7 "\<Finite Difference Methods" >}}
+*   {{< resource_link 02467893-75dd-44cc-fcac-58f1a4ee9702 "2.3.1Finite Difference Approximations" >}}
+*   {{< resource_link 2687d50f-29a8-875f-7b1d-d6bf668d5db7 "2.3.2Finite Difference Methods" >}}
+*   {{< resource_link 431a74fb-7dca-19ce-0c6f-e4b6a0a6446d "2.3.3Finite Difference Method Applied to 1-D Convection" >}}
+*   {{< resource_link 31ee5fcb-1e6b-78ca-5cb4-d3cb7c073c22 "2.3.4Forward Time-Backward Space FTBS" >}}
+*   {{< resource_link 31ee5fcb-1e6b-78ca-5cb4-d3cb7c073c22 "\>Forward Time-Backward Space FTBS" >}}
 
 2.3.3 Finite Difference Method applied to 1-D Convection
 --------------------------------------------------------
@@ -70,7 +70,6 @@ Specifically, we will use a constant velocity \\(u=1\\) and set the initial cond
 
 We consider the domain \\(\\Omega =\[0.1\]\\), with periodic boundary conditions. A MATLAB{{< sup "®" >}} script that implements this algorithm is:
 
-```
 % This MATLAB script solves the one-dimensional convection
 % equation using a finite difference algorithm.  The
 % discretization uses central differences in space and forward
@@ -120,9 +119,7 @@ while (t \< tfinal)
     drawnow;
 end
 
-```
-
-Figures [2.10]({{< baseurl >}}/resources/ftcs1), [2.11]({{< baseurl >}}/resources/ftcs2), and [2.12]({{< baseurl >}}/resources/ftcs3) plot the finite difference solution at times \\(t=0.25, t=0.5\\) and \\(t=1.0\\). The exact solution for this problem has \\(U(x,t) = U\_0(x)\\) for any integer time \\((t=1,2, \\ldots ).\\). When the numerical method is run, the Gaussian disturbance is convected across the domain, however small oscillations are observed at \\(t=0.5\\) which begin to pollute the numerical solution. Eventually, these oscillations grow until the entire solution is contaminated. We will later show that the \\(FTCS\\) algorithm is unstable for any \\(\\Delta t\\) for pure convection. Thus, what we are observing is an instability that can be predicted through some analysis.
+Figures {{< resource_link ffbc64a3-1c9b-60e4-3abc-12f2e869fcbc "2.10" >}}, {{< resource_link e13e7724-6319-75c6-c173-a8de99434b2f "2.11" >}}, and {{< resource_link 4d259a41-0f31-1517-35aa-6f0d1fa5bcf5 "2.12" >}} plot the finite difference solution at times \\(t=0.25, t=0.5\\) and \\(t=1.0\\). The exact solution for this problem has \\(U(x,t) = U\_0(x)\\) for any integer time \\((t=1,2, \\ldots ).\\). When the numerical method is run, the Gaussian disturbance is convected across the domain, however small oscillations are observed at \\(t=0.5\\) which begin to pollute the numerical solution. Eventually, these oscillations grow until the entire solution is contaminated. We will later show that the \\(FTCS\\) algorithm is unstable for any \\(\\Delta t\\) for pure convection. Thus, what we are observing is an instability that can be predicted through some analysis.
 
 ![This plot shows the finite difference solution at t=0.25 that has two lines, each with a single peak.  The first peak is centered over x=0.5, while the second peak is centered over x=0.75.]({{< resource_file ffbc64a3-1c9b-60e4-3abc-12f2e869fcbc >}})
 

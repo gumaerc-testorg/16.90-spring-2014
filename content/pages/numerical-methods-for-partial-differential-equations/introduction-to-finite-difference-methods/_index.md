@@ -9,12 +9,12 @@ title: 2.3 Introduction to Finite Difference Methods
 uid: 02467893-75dd-44cc-fcac-58f1a4ee9702
 ---
 
-*   [\<Linear Elasticity]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/partial-differential-equations/1690r-linear-elasticity)
-*   [2.3.1Finite Difference Approximations]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-difference-methods)
-*   [2.3.2Finite Difference Methods]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-difference-methods/1690r-finite-difference-methods)
-*   [2.3.3Finite Difference Method Applied to 1-D Convection]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-difference-methods/1690r-finite-difference-method-applied-to-1-d-convection)
-*   [2.3.4Forward Time-Backward Space FTBS]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-difference-methods/1690r-forward-time-backward-space--ftbs-)
-*   [\>Finite Difference Methods]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-difference-methods/1690r-finite-difference-methods)
+*   {{< resource_link d923673e-05c6-3f48-9244-d3fc50c46901 "\<Linear Elasticity" >}}
+*   {{< resource_link 02467893-75dd-44cc-fcac-58f1a4ee9702 "2.3.1Finite Difference Approximations" >}}
+*   {{< resource_link 2687d50f-29a8-875f-7b1d-d6bf668d5db7 "2.3.2Finite Difference Methods" >}}
+*   {{< resource_link 431a74fb-7dca-19ce-0c6f-e4b6a0a6446d "2.3.3Finite Difference Method Applied to 1-D Convection" >}}
+*   {{< resource_link 31ee5fcb-1e6b-78ca-5cb4-d3cb7c073c22 "2.3.4Forward Time-Backward Space FTBS" >}}
+*   {{< resource_link 2687d50f-29a8-875f-7b1d-d6bf668d5db7 "\>Finite Difference Methods" >}}
 
 2.3.1 Finite Difference Approximations
 --------------------------------------
@@ -176,7 +176,7 @@ The finite difference approximation for the second order derivative is obtained 
 Finite Difference Approximations in 2D
 --------------------------------------
 
-We can easily extend the concept of finite difference approximations to multiple spatial dimensions. In this case we represent the solution on a structured spatial mesh as shown in Figure [2.9]({{< baseurl >}}/resources/finitedifference_twod_mesh).
+We can easily extend the concept of finite difference approximations to multiple spatial dimensions. In this case we represent the solution on a structured spatial mesh as shown in Figure {{< resource_link 36452925-7fa9-e455-7dca-ae164384e996 "2.9" >}}.
 
 ![The figure shows a grid with the first and second dimensions (perpendicular to each other), labeled similarly to Fig 2.8, with nodes at every intersection of the 2 dimensions.]({{< resource_file 36452925-7fa9-e455-7dca-ae164384e996 >}})
 

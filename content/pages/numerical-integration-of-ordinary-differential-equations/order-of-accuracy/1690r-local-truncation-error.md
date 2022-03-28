@@ -9,20 +9,20 @@ title: 1.3 Order of Accuracy
 uid: 6121a3ca-d8f1-c652-7821-6a952ea8ff2c
 ---
 
-*   [\<Order of Accuracy]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/order-of-accuracy)
-*   [1.3.1Errors]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/order-of-accuracy)
-*   [1.3.2Local Truncation Error]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/order-of-accuracy/1690r-local-truncation-error)
-*   [1.3.3Local Order of Accuracy]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/order-of-accuracy/1690r-local-order-of-accuracy)
-*   [1.3.4Definition of Multi-Step Methods]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/order-of-accuracy/1690r-definition-of-multi-step-methods)
-*   [1.3.5Example of Most Accurate Multi-Step Method]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/order-of-accuracy/1690r-example-of-most-accurate-multi-step-method)
-*   [\>Local Order of Accuracy]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/order-of-accuracy/1690r-local-order-of-accuracy)
+*   {{< resource_link a3fbfbbd-e140-393b-aed5-af945a9316f9 "\<Order of Accuracy" >}}
+*   {{< resource_link a3fbfbbd-e140-393b-aed5-af945a9316f9 "1.3.1Errors" >}}
+*   {{< resource_link 6121a3ca-d8f1-c652-7821-6a952ea8ff2c "1.3.2Local Truncation Error" >}}
+*   {{< resource_link 09523d4b-aafc-8f4c-e9b7-d3d67ad30e7b "1.3.3Local Order of Accuracy" >}}
+*   {{< resource_link 58553753-c9cc-c012-f030-d87844ae8db5 "1.3.4Definition of Multi-Step Methods" >}}
+*   {{< resource_link ff3b4491-f1d1-d23e-2d3a-939de701c5c2 "1.3.5Example of Most Accurate Multi-Step Method" >}}
+*   {{< resource_link 09523d4b-aafc-8f4c-e9b7-d3d67ad30e7b "\>Local Order of Accuracy" >}}
 
 1.3.2 Local Truncation Error
 ----------------------------
 
 [Measurable Outcome 1.5]({{< baseurl >}}/pages/measurable-outcome-index/#anchorMO15)
 
-Global error measures the difference between the computed solution at a given time and the true solution of the initial value problem that we are trying to solve. Local error is the error made in one step of the numerical method. While we are generally interested in obtaining small global errors, local errors are the errors over which we have direct control. Both global and local accuracy are related to the behavior of the error as \\({\\Delta t}\\rightarrow 0\\). Convergence is related to global accuracy; for local accuracy we will see in [1.5.1]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/zero-stability-and-the-dahlquist-equivalence-theorem) an important concept known as consistency.
+Global error measures the difference between the computed solution at a given time and the true solution of the initial value problem that we are trying to solve. Local error is the error made in one step of the numerical method. While we are generally interested in obtaining small global errors, local errors are the errors over which we have direct control. Both global and local accuracy are related to the behavior of the error as \\({\\Delta t}\\rightarrow 0\\). Convergence is related to global accuracy; for local accuracy we will see in {{< resource_link fab29380-eb66-91e4-e3ce-4dfce3f50fbe "1.5.1" >}} an important concept known as consistency.
 
 If we can quantify how much the error changes in a single timestep, then we will have an indication of how much the error could change over a series of timesteps. Specifically, let's write the solution error, \\(e\\), at \\(t=T\\) as a sum of the change in error at each timestep,
 
@@ -280,6 +280,6 @@ Substitution gives the local truncation error as,
 
 {{< tableclose >}}
 
-Thus, the leading term of the local truncation error for the forward Euler method is \\(-\\frac{1}{2}{\\Delta t}^2 u\_{tt}(t^ n) = O({\\Delta t}^2)\\). Based on our previous argument, we expect that the global accuracy of the forward Euler method should be \\(O({\\Delta t})\\) (i.e. first order accuracy). This was in fact observed in Example [1.5]({{< baseurl >}}/resources/ga_fe).
+Thus, the leading term of the local truncation error for the forward Euler method is \\(-\\frac{1}{2}{\\Delta t}^2 u\_{tt}(t^ n) = O({\\Delta t}^2)\\). Based on our previous argument, we expect that the global accuracy of the forward Euler method should be \\(O({\\Delta t})\\) (i.e. first order accuracy). This was in fact observed in Example {{< resource_link 513c00ff-c667-f8ca-ef14-9cb1db0b77a4 "1.5" >}}.
 
 BackOrder of Accuracy ContinueLocal Order of Accuracy

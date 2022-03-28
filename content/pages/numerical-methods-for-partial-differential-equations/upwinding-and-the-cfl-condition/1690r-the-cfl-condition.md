@@ -9,17 +9,17 @@ title: 2.6 Upwinding and the CFL Condition
 uid: cf738358-ae33-664a-5d71-baadd24f92cb
 ---
 
-*   [\<Upwinding and the CFL Condition]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/upwinding-and-the-cfl-condition)
-*   [2.6.1Upwinding]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/upwinding-and-the-cfl-condition)
-*   [2.6.2The CFL Condition]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/upwinding-and-the-cfl-condition/1690r-the-cfl-condition)
-*   [\>Eigenvalue Stability of Finite Difference Methods]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/eigenvalue-stability-of-finite-difference-methods)
+*   {{< resource_link ce70b6b2-dea9-62c9-1d8e-4789958e4499 "\<Upwinding and the CFL Condition" >}}
+*   {{< resource_link ce70b6b2-dea9-62c9-1d8e-4789958e4499 "2.6.1Upwinding" >}}
+*   {{< resource_link cf738358-ae33-664a-5d71-baadd24f92cb "2.6.2The CFL Condition" >}}
+*   {{< resource_link 935b6a61-8d7d-2772-6ca1-df78ee864834 "\>Eigenvalue Stability of Finite Difference Methods" >}}
 
 2.6.2 The CFL Condition
 -----------------------
 
 [Measurable Outcome 2.2]({{< baseurl >}}/pages/measurable-outcome-index/#anchorMO22), [Measurable Outcome 2.5]({{< baseurl >}}/pages/measurable-outcome-index/#anchorMO25), [Measurable Outcome 2.6]({{< baseurl >}}/pages/measurable-outcome-index/#anchorMO26), [Measurable Outcome 2.7]({{< baseurl >}}/pages/measurable-outcome-index/#anchorMO27)
 
-Recall from [2.2.3]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/partial-differential-equations/1690r-convection) that the domain of dependence for the convection equation at \\((x,t)\\) is the characteristic \\(x(s\<t)\\). We can also consider the numerical domain of dependence of the solution at \\((x\_ i, t^ n)\\). Figure [2.18]({{< baseurl >}}/resources/ftbsdomdep) shows the numerical domain of dependence of the FTBS method. Note that the numerical domain of dependence at \\(n-2\\) includes the nodes \\(i-2, i-1\\), and \\(i\\). \\((i-2,n-2)\\) and (\\(i-1,n-2\\)) are in the domain of dependence of \\((i,n)\\) because these values are required in the calculation of \\(U\_{i-1}^{n-1}\\), which in turn is required to calculate \\(U\_{i}^ n\\). Similarly, \\((i-1,n-2)\\) and \\((i,n-2)\\) are in the domain of dependence of \\((i,n)\\) because they are required in the calculation of \\(U\_{i}^{n-1}\\).
+Recall from {{< resource_link 5b35a359-99c0-aad1-8b33-6126f6b0a143 "2.2.3" >}} that the domain of dependence for the convection equation at \\((x,t)\\) is the characteristic \\(x(s\<t)\\). We can also consider the numerical domain of dependence of the solution at \\((x\_ i, t^ n)\\). Figure {{< resource_link b96582f3-0aae-8cbf-f2cc-8c66fb68cfdc "2.18" >}} shows the numerical domain of dependence of the FTBS method. Note that the numerical domain of dependence at \\(n-2\\) includes the nodes \\(i-2, i-1\\), and \\(i\\). \\((i-2,n-2)\\) and (\\(i-1,n-2\\)) are in the domain of dependence of \\((i,n)\\) because these values are required in the calculation of \\(U\_{i-1}^{n-1}\\), which in turn is required to calculate \\(U\_{i}^ n\\). Similarly, \\((i-1,n-2)\\) and \\((i,n-2)\\) are in the domain of dependence of \\((i,n)\\) because they are required in the calculation of \\(U\_{i}^{n-1}\\).
 
 ![This graph has points at the x- and y-axis intersections, with a triangular highlighted area of six points representing a numerical domain of dependence.]({{< resource_file b96582f3-0aae-8cbf-f2cc-8c66fb68cfdc >}})
 
@@ -31,7 +31,7 @@ We now define two terms:
 
 **CFL Theorem:** The CFL condition is a necessary condition for the discretization of a time-dependent PDE to be convergent (i.e. in the limit as \\(\\Delta t \\to 0\\)). Courant, Friedrichs, and Levy are the authors who first described this requirement in 1928 (well before the first computer!)
 
-In Figures [2.19]({{< baseurl >}}/resources/cfl_stable) and [2.20]({{< baseurl >}}/resources/cfl_unstable), the CFL conditions are shown graphically for the one-dimensional convection equation discretized using the first-order upwind scheme.
+In Figures {{< resource_link bb4dac45-da61-e3bd-d6e8-d0ec2adc6ba1 "2.19" >}} and {{< resource_link 74c19906-57c0-8786-a23f-c86c7e2000af "2.20" >}}, the CFL conditions are shown graphically for the one-dimensional convection equation discretized using the first-order upwind scheme.
 
 ![The graph shows a case where the CFL condition has been satisfied, which shows the numerical domain of dependence includes the physical domain of dependence.]({{< resource_file bb4dac45-da61-e3bd-d6e8-d0ec2adc6ba1 >}})
 

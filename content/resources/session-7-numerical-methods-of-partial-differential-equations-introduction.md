@@ -1,19 +1,19 @@
 ---
 content_type: resource
 description: ''
-end_time: ''
 file: null
 learning_resource_types:
 - Lecture Videos
+ocw_type: ''
 optional_tab_title: Lecture Notes
 optional_text: '![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[Numerical
   Methods of Partial Differential Equations: Introduction (PDF - 1.1MB)](resources/mit16_90s14_lecture7)'
 parent_title: Lecture Videos
 parent_type: CourseSection
+parent_uid: null
 related_resources_text: ''
 resource_index_text: ''
 resourcetype: Video
-start_time: ''
 title: 'Session 7: Numerical Methods of Partial Differential Equations: Introduction'
 uid: 88c9efd2-d79d-8010-c0f8-4456fd221c0a
 video_files:

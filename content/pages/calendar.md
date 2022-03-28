@@ -2,6 +2,7 @@
 content_type: page
 learning_resource_types: []
 ocw_type: CourseSection
+parent_uid: null
 title: Calendar
 uid: 1e0ad658-4271-b059-64ac-402248219b7c
 ---
@@ -36,7 +37,7 @@ KEY DATES
 Course Introduction and Ordinary Differential Equations (ODEs)
 {{< tdclose >}}
 {{< tdopen >}}
-Read [Unit 1: Numerical Integration of ODEs]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations)
+Read {{< resource_link 5cae4847-c59a-a247-c767-3c0c6b0abef1 "Unit 1: Numerical Integration of ODEs" >}}
 {{< tdclose >}}
 
 {{< trclose >}}
@@ -122,7 +123,7 @@ Homework 2 due
 Numerical Methods of Partial Differential Equations: Introduction
 {{< tdclose >}}
 {{< tdopen >}}
-Read [Unit 2: Numerical Methods for PDEs]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations)
+Read {{< resource_link 125c58ac-6a34-5a7c-bba8-de2d3160cb8b "Unit 2: Numerical Methods for PDEs" >}}
 {{< tdclose >}}
 
 {{< trclose >}}
@@ -302,7 +303,7 @@ Monte Carlo
 {{< tdopen >}}
 
 
-Read [Unit 3: Probabilistic Methods and Optimization]({{< baseurl >}}/pages/probabilistic-methods-and-optimization)
+Read {{< resource_link 487c3b15-ab67-d7c9-5cff-a6b147049d0c "Unit 3: Probabilistic Methods and Optimization" >}}
 
 Project 2 due
 

@@ -9,11 +9,11 @@ title: 1.9 Runge-Kutta Methods
 uid: d5200dfd-d11c-9d13-8626-a6b253c602ff
 ---
 
-*   [\<Runge-Kutta Methods]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/runge-kutta-methods)
-*   [1.9.1Two-Stage Runge-Kutta Methods]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/runge-kutta-methods)
-*   [1.9.2Four-Stage Runge-Kutta Method]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/runge-kutta-methods/1690r-four-stage-runge-kutta-method)
-*   [1.9.3Stability Regions]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/runge-kutta-methods/1690r-stability-regions)
-*   [\>Stability Regions]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/runge-kutta-methods/1690r-stability-regions)
+*   {{< resource_link c5e7e539-a82c-8e62-0c8a-e738a18f6f10 "\<Runge-Kutta Methods" >}}
+*   {{< resource_link c5e7e539-a82c-8e62-0c8a-e738a18f6f10 "1.9.1Two-Stage Runge-Kutta Methods" >}}
+*   {{< resource_link d5200dfd-d11c-9d13-8626-a6b253c602ff "1.9.2Four-Stage Runge-Kutta Method" >}}
+*   {{< resource_link 1f5a4263-b1f3-f522-02d6-af00f58ae206 "1.9.3Stability Regions" >}}
+*   {{< resource_link 1f5a4263-b1f3-f522-02d6-af00f58ae206 "\>Stability Regions" >}}
 
 1.9.2 Four-stage Runge-Kutta Method
 -----------------------------------

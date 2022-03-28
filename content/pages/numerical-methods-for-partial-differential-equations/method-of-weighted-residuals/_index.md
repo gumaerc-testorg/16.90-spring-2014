@@ -9,12 +9,12 @@ title: 2.8 Method of Weighted Residuals
 uid: bda18124-71a5-87a7-513f-cb81480a1e18
 ---
 
-*   [\<Stability Exercises]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/eigenvalue-stability-of-finite-difference-methods/1690r-stability-exercises)
-*   [2.8.1Functional Approximation of the Solution]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/method-of-weighted-residuals)
-*   [2.8.2The Collocation Method]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/method-of-weighted-residuals/1690r-the-collocation-method)
-*   [2.8.3The Method of Weighted Residuals]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/method-of-weighted-residuals/1690r-the-method-of-weighted-residuals)
-*   [2.8.4Galerkin Method with New Basis]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/method-of-weighted-residuals/1690r-galerkin-method-with-new-basis)
-*   [\>The Collocation Method]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/method-of-weighted-residuals/1690r-the-collocation-method)
+*   {{< resource_link cb633bb1-3925-0ab5-7f90-8bb74bb848bb "\<Stability Exercises" >}}
+*   {{< resource_link bda18124-71a5-87a7-513f-cb81480a1e18 "2.8.1Functional Approximation of the Solution" >}}
+*   {{< resource_link 06f65fc2-70a3-d410-b331-d186ad67852a "2.8.2The Collocation Method" >}}
+*   {{< resource_link 2bb791a5-f105-8421-b20e-147e46034287 "2.8.3The Method of Weighted Residuals" >}}
+*   {{< resource_link b85dba09-9fd2-582c-61f1-a5573f5c79a5 "2.8.4Galerkin Method with New Basis" >}}
+*   {{< resource_link 06f65fc2-70a3-d410-b331-d186ad67852a "\>The Collocation Method" >}}
 
 2.8.1 Functional Approximation of the Solution
 ----------------------------------------------
@@ -242,7 +242,7 @@ where \\(\\cosh (y) = (e^ y + e^{-y})/2\\) and \\(\\sinh (y) = (e^ y - e^{-y})/2
 
 {{< tableclose >}}
 
-A plot of this solution is shown in Figure [2.25]({{< baseurl >}}/resources/steady_dif1d_texact).
+A plot of this solution is shown in Figure {{< resource_link f90ed9a8-1faa-f78e-944f-e334d03d528a "2.25" >}}.
 
 ![This graph traces the line of a heat diffusion experiment, the temperature of which steadily increases and then decreases over time.]({{< resource_file f90ed9a8-1faa-f78e-944f-e334d03d528a >}})
 
@@ -284,7 +284,7 @@ The question remains what functions (and how many) to choose for \\(\\phi \_ j(x
     
     {{< tableclose >}}
     
-    By including factors which go to zero at the end points, we have constructed a quadratic function which will satisfy the required boundary conditions. A plot of \\(\\phi \_1(x)\\) is shown in Figure [2.26]({{< baseurl >}}/resources/mwr_phi).
+    By including factors which go to zero at the end points, we have constructed a quadratic function which will satisfy the required boundary conditions. A plot of \\(\\phi \_1(x)\\) is shown in Figure {{< resource_link 8f627342-6ba2-9329-00d2-8b286275f277 "2.26" >}}.
     
 *   Suppose we wanted to include a cubic polynomial in the approximation, then one way we could do this is multiply \\(\\phi \_1(x)\\) by \\(x\\).
     
@@ -301,7 +301,7 @@ The question remains what functions (and how many) to choose for \\(\\phi \_ j(x
     
     {{< tableclose >}}
     
-    Since \\(\\phi \_1(x)\\) goes to zero at the end points, then so will \\(\\phi \_2(x)\\). A plot of \\(\\phi \_2(x)\\) is shown in Figure [2.26]({{< baseurl >}}/resources/mwr_phi). There are actually some better ways to choose these higher-order polynomials then simply multiplying the lowest order polynomial by powers of \\(x\\). The problem with the current approach is that if the number of terms were large (so that the powers of \\(x\\) would be large), then the set of polynomials (i.e., \\(\\phi \_ j(x)\\)) become very poorly conditioned resulting in many numerical difficulties. We will not discuss issues of conditioning but more advanced texts on finite element methods or related subjects can be consulted. For low order polynomial approximations, the issues of conditioning do not play an important role.
+    Since \\(\\phi \_1(x)\\) goes to zero at the end points, then so will \\(\\phi \_2(x)\\). A plot of \\(\\phi \_2(x)\\) is shown in Figure {{< resource_link 8f627342-6ba2-9329-00d2-8b286275f277 "2.26" >}}. There are actually some better ways to choose these higher-order polynomials then simply multiplying the lowest order polynomial by powers of \\(x\\). The problem with the current approach is that if the number of terms were large (so that the powers of \\(x\\) would be large), then the set of polynomials (i.e., \\(\\phi \_ j(x)\\)) become very poorly conditioned resulting in many numerical difficulties. We will not discuss issues of conditioning but more advanced texts on finite element methods or related subjects can be consulted. For low order polynomial approximations, the issues of conditioning do not play an important role.
     
     ![This graph has one line that steadily increases and decreases, representing the & Phi;1(x), and a second line that initially decreases below zero on the y-axis and then increases above zero and then returns to zero for & Phi;1(x).]({{< resource_file 8f627342-6ba2-9329-00d2-8b286275f277 >}})
     

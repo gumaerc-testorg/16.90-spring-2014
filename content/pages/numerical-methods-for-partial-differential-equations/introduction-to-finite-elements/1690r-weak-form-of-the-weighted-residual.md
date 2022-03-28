@@ -9,14 +9,14 @@ title: 2.9 Introduction to Finite Elements
 uid: 2f262139-b40f-5261-66c9-51230f32cd54
 ---
 
-*   [\<1-D Linear Elements and the Nodal Basis]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-elements/1690r-1-d-linear-elements-and-the-nodal-basis)
-*   [2.9.1Motivation]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-elements)
-*   [2.9.21-D Finite Element Mesh and Notation]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-elements/1690r-1-d-finite-element-mesh-and-notation)
-*   [2.9.31-D Linear Elements and the Nodal Basis]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-elements/1690r-1-d-linear-elements-and-the-nodal-basis)
-*   [2.9.4Weak Form of the Weighted Residual]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-elements/1690r-weak-form-of-the-weighted-residual)
-*   [2.9.5Calculation of the Finite Element Weighted Residual]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-elements/1690r-calculation-of-the-finite-element-weighted-residual)
-*   [2.9.6Calculation of the Stiffness Matrix]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-elements/1690r-calculation-of-the-stiffness-matrix)
-*   [\>Calculation of the Finite Element Weighted Residual]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/introduction-to-finite-elements/1690r-calculation-of-the-finite-element-weighted-residual)
+*   {{< resource_link 03bb574d-085a-6995-0b35-3c2a70257228 "\<1-D Linear Elements and the Nodal Basis" >}}
+*   {{< resource_link 876be530-ac05-3384-5428-281b2b3c5b68 "2.9.1Motivation" >}}
+*   {{< resource_link cc8eecdb-7e89-e1db-ce16-2f90e5ff68fb "2.9.21-D Finite Element Mesh and Notation" >}}
+*   {{< resource_link 03bb574d-085a-6995-0b35-3c2a70257228 "2.9.31-D Linear Elements and the Nodal Basis" >}}
+*   {{< resource_link 2f262139-b40f-5261-66c9-51230f32cd54 "2.9.4Weak Form of the Weighted Residual" >}}
+*   {{< resource_link c369789e-d0c6-3741-858a-5dcba10708e4 "2.9.5Calculation of the Finite Element Weighted Residual" >}}
+*   {{< resource_link e47fb6af-9d83-9e3b-073e-b5053c6c2226 "2.9.6Calculation of the Stiffness Matrix" >}}
+*   {{< resource_link c369789e-d0c6-3741-858a-5dcba10708e4 "\>Calculation of the Finite Element Weighted Residual" >}}
 
 2.9.4 Weak Form of the Weighted Residual
 ----------------------------------------
@@ -117,7 +117,7 @@ For the diffusion equation, the weighted residual statement is usually integrate
 
 {{< tableclose >}}
 
-The first term is on the boundaries of the domain and its use in setting boundary conditions is discussed in Section [2.10.2]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/more-on-finite-element-methods/1690r-boundary-conditions-for-finite-elements). The second and third terms are integrals over the entire domain.
+The first term is on the boundaries of the domain and its use in setting boundary conditions is discussed in Section {{< resource_link 365c70a7-4666-ed1c-d140-8aeb96bff4a6 "2.10.2" >}}. The second and third terms are integrals over the entire domain.
 
 The form of the weighted residual given in Equation [2.209](javascript: void(0)) is known as the **weak form** of the PDE. The residual itself is often referred to as the **strong form** of the governing equation. We see that in the weak form, the spatial derivatives of \\(\\tilde{T}\\) are of lower order than in the residual (because we integrated by parts). In the finite element method, this reduction in the order of derivatives permits the use of lower order polynomials for the functional approximation of the solution. For PDEs in which the highest order derivative is even, the weak form of the weighted residual is chosen so that the highest derivative on the weight function and the solution are the same (e.g., for a fourth-order derivative in the strong form, the weak form will have second-order derivatives on the weight function and second-order derivatives on the approximate solution).
 

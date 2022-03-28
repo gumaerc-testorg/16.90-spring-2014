@@ -9,12 +9,12 @@ title: 2.7 Eigenvalue Stability of Finite Difference Methods
 uid: c4a73127-b3ff-feee-5cd9-2e3e6319d356
 ---
 
-*   [\<Matrix Stability for Finite Difference Methods]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/eigenvalue-stability-of-finite-difference-methods/1690r-matrix-stability-for-finite-difference-methods)
-*   [2.7.1Fourier Analysis of PDEs]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/eigenvalue-stability-of-finite-difference-methods)
-*   [2.7.2Matrix Stability for Finite Difference Methods]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/eigenvalue-stability-of-finite-difference-methods/1690r-matrix-stability-for-finite-difference-methods)
-*   [2.7.3Circulant Matrices]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/eigenvalue-stability-of-finite-difference-methods/1690r-circulant-matrices)
-*   [2.7.4Stability Exercises]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/eigenvalue-stability-of-finite-difference-methods/1690r-stability-exercises)
-*   [\>Stability Exercises]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/eigenvalue-stability-of-finite-difference-methods/1690r-stability-exercises)
+*   {{< resource_link 3e2eea01-ee64-f3f7-264f-4d9e57b3b622 "\<Matrix Stability for Finite Difference Methods" >}}
+*   {{< resource_link 935b6a61-8d7d-2772-6ca1-df78ee864834 "2.7.1Fourier Analysis of PDEs" >}}
+*   {{< resource_link 3e2eea01-ee64-f3f7-264f-4d9e57b3b622 "2.7.2Matrix Stability for Finite Difference Methods" >}}
+*   {{< resource_link c4a73127-b3ff-feee-5cd9-2e3e6319d356 "2.7.3Circulant Matrices" >}}
+*   {{< resource_link cb633bb1-3925-0ab5-7f90-8bb74bb848bb "2.7.4Stability Exercises" >}}
+*   {{< resource_link cb633bb1-3925-0ab5-7f90-8bb74bb848bb "\>Stability Exercises" >}}
 
 2.7.3 Circulant Matrices
 ------------------------
@@ -51,7 +51,7 @@ This type of matrix is known as a circulant matrix. Circulant matrices have eige
 
 {{< tableclose >}}
 
-As we saw in Section [2.7.2]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/eigenvalue-stability-of-finite-difference-methods/1690r-matrix-stability-for-finite-difference-methods), when periodic boundary conditions are assumed, the central space discretization of one-dimensional convection gives purely imaginary eigenvalues, and when scaled by a timestep for which the CFL number is one, the eigenvalues stretch along the axis until \\(\\pm i\\). Since for a convection problem with constant velocity and periodic boundary conditions gives a circulant matrix, we can use Equation ([2.141](javascript: void(0))) to determine the eigenvalues analytically. We begin by finding the coefficients, \\(a\_ j\\). For a central space discretization, we find,
+As we saw in Section {{< resource_link 3e2eea01-ee64-f3f7-264f-4d9e57b3b622 "2.7.2" >}}, when periodic boundary conditions are assumed, the central space discretization of one-dimensional convection gives purely imaginary eigenvalues, and when scaled by a timestep for which the CFL number is one, the eigenvalues stretch along the axis until \\(\\pm i\\). Since for a convection problem with constant velocity and periodic boundary conditions gives a circulant matrix, we can use Equation ([2.141](javascript: void(0))) to determine the eigenvalues analytically. We begin by finding the coefficients, \\(a\_ j\\). For a central space discretization, we find,
 
 {{< tableopen >}}
 {{< tropen >}}
@@ -198,6 +198,6 @@ Multiplying by the timestep,
 
 {{< tableclose >}}
 
-As observed in Section [2.7.2]({{< baseurl >}}/pages/numerical-methods-for-partial-differential-equations/eigenvalue-stability-of-finite-difference-methods/1690r-matrix-stability-for-finite-difference-methods), the eigenvalues are purely imaginary and will extend to \\(\\pm i\\) when \\(\\mathrm{CFL} = |u|{\\Delta t}/{\\scriptstyle \\Delta } x= 1\\).
+As observed in Section {{< resource_link 3e2eea01-ee64-f3f7-264f-4d9e57b3b622 "2.7.2" >}}, the eigenvalues are purely imaginary and will extend to \\(\\pm i\\) when \\(\\mathrm{CFL} = |u|{\\Delta t}/{\\scriptstyle \\Delta } x= 1\\).
 
 BackMatrix Stability for Finite Difference Methods ContinueStability Exercises

@@ -9,13 +9,13 @@ title: 1.7 Stiffness and Implicit Methods
 uid: 935324e3-1ab2-cb57-9059-0ba1f034fcd5
 ---
 
-*   [\<Imaginary Eigenvalues]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/systems-of-odes-and-eigenvalue-stability/1690r-imaginary-eigenvalues)
-*   [1.7.1Stiffness]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/stiffness-and-implicit-methods)
-*   [1.7.2Spectral Condition Number]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/stiffness-and-implicit-methods/1690r-spectral-condition-number)
-*   [1.7.3Implicit Methods for Linear Systems of ODEs]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/stiffness-and-implicit-methods/1690r-implicit-methods-for-linear-systems-of-odes)
-*   [1.7.4Newton-Raphson Implement Implicit Methods on Nonlinear Problems]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/stiffness-and-implicit-methods/1690r-newton-raphson-implement-implicit-methods-on-nonlinear-problems)
-*   [1.7.5Apply Newton-Rhapson]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/stiffness-and-implicit-methods/1690r-apply-newton-rhapson)
-*   [\>Spectral Condition Number]({{< baseurl >}}/pages/numerical-integration-of-ordinary-differential-equations/stiffness-and-implicit-methods/1690r-spectral-condition-number)
+*   {{< resource_link 64bbf174-0326-6a46-283d-2d2450cf7589 "\<Imaginary Eigenvalues" >}}
+*   {{< resource_link 935324e3-1ab2-cb57-9059-0ba1f034fcd5 "1.7.1Stiffness" >}}
+*   {{< resource_link 900cc931-acfb-c435-72d7-f303ce81ef83 "1.7.2Spectral Condition Number" >}}
+*   {{< resource_link 543e8406-3445-482c-0202-05c77ce31e71 "1.7.3Implicit Methods for Linear Systems of ODEs" >}}
+*   {{< resource_link b363c2d0-1814-cf4c-0cb3-6fe540840d02 "1.7.4Newton-Raphson Implement Implicit Methods on Nonlinear Problems" >}}
+*   {{< resource_link 84564160-240c-f3be-e329-df42818d2eaa "1.7.5Apply Newton-Rhapson" >}}
+*   {{< resource_link 900cc931-acfb-c435-72d7-f303ce81ef83 "\>Spectral Condition Number" >}}
 
 1.7.1 Stiffness
 ---------------
@@ -41,7 +41,7 @@ One way for stiffness to arise is through a difference in timescales between a f
 
 The forcing term oscillates with a frequency of \\(1\\). By comparison, the unforced problem decays very rapidly since the eigenvalue is \\(\\lambda =-1000\\). Thus, the timescales are different by a factor of 1000.
 
-Suppose we are only interested in the long time behavior of \\(u(t)\\), not the initial transient. We would like to take a timestep that would be set by the requirements to resolve the \\(\\sin t\\) forcing. For example, one might expect that setting \\({\\Delta t}= 2\\pi /100\\) (which would result in 100 timesteps per period of the forcing) would be sufficient to have reasonable accuracy. However, if the method does not have a large eigenvalue stability region, this may not be possible. In this case, the \\({\\Delta t}\\) set by stability requirements is much smaller than what we need for accuracy. A small \\({\\Delta t}\\) means that many iterations are needed, which makes the simulation computationally expensive. For example, if a forward Euler method is applied to this problem, eigenvalue stability would limit the \\({\\Delta t}\\leq 0.002\\) (since the eigenvalue is \\(\\lambda = -1000\\) and the forward Euler stability region crosses the real axis at -2). The results from simulations for a variety of \\({\\Delta t}\\) using forward Euler are shown in Figure [1.12]({{< baseurl >}}/resources/fe_stiff). For \\({\\Delta t}= 0.001\\), the solution is well behaved and looks realistic. For \\({\\Delta t}= 0.0019\\), the approach of eigenvalue instability is evident as there are oscillations during the first few iterations which eventually decay. For \\({\\Delta t}= 0.002\\), the oscillations no longer decay but remain throughout the entire simulation. Finally, for \\({\\Delta t}= 0.0021\\), the oscillations grow unbounded. A zoomed image of these results concentrating on the initial time behavior is shown in Figure [1.13]({{< baseurl >}}/resources/fe_stiff_zoom).
+Suppose we are only interested in the long time behavior of \\(u(t)\\), not the initial transient. We would like to take a timestep that would be set by the requirements to resolve the \\(\\sin t\\) forcing. For example, one might expect that setting \\({\\Delta t}= 2\\pi /100\\) (which would result in 100 timesteps per period of the forcing) would be sufficient to have reasonable accuracy. However, if the method does not have a large eigenvalue stability region, this may not be possible. In this case, the \\({\\Delta t}\\) set by stability requirements is much smaller than what we need for accuracy. A small \\({\\Delta t}\\) means that many iterations are needed, which makes the simulation computationally expensive. For example, if a forward Euler method is applied to this problem, eigenvalue stability would limit the \\({\\Delta t}\\leq 0.002\\) (since the eigenvalue is \\(\\lambda = -1000\\) and the forward Euler stability region crosses the real axis at -2). The results from simulations for a variety of \\({\\Delta t}\\) using forward Euler are shown in Figure {{< resource_link 799fbd6f-42df-695d-64e6-b06528802e94 "1.12" >}}. For \\({\\Delta t}= 0.001\\), the solution is well behaved and looks realistic. For \\({\\Delta t}= 0.0019\\), the approach of eigenvalue instability is evident as there are oscillations during the first few iterations which eventually decay. For \\({\\Delta t}= 0.002\\), the oscillations no longer decay but remain throughout the entire simulation. Finally, for \\({\\Delta t}= 0.0021\\), the oscillations grow unbounded. A zoomed image of these results concentrating on the initial time behavior is shown in Figure {{< resource_link d07c23e6-43e4-df4c-1d71-72833d2ea8a3 "1.13" >}}.
 
 ![The four graphs in this figure show the results from simulations for a variety of Δt using forward Euler.]({{< resource_file 799fbd6f-42df-695d-64e6-b06528802e94 >}})
 
@@ -49,7 +49,7 @@ Suppose we are only interested in the long time behavior of \\(u(t)\\), not the 
 
 ![The four graphs in this figure show the same results as the previous figure, but at a very short incremental time scale.]({{< resource_file d07c23e6-43e4-df4c-1d71-72833d2ea8a3 >}})
 
-**Figure 1.13**: Forward Euler solution for \\(u\_ t + 1000 u = 100\\sin t\\) with \\(u(0) = 1\\) at \\({\\Delta t}= 0.001\\), 0.0019, 0.002, and 0.0021. Same results as in Figure [1.12]({{< baseurl >}}/resources/fe_stiff) just showing the small \\(t\\) behavior in more detail.
+**Figure 1.13**: Forward Euler solution for \\(u\_ t + 1000 u = 100\\sin t\\) with \\(u(0) = 1\\) at \\({\\Delta t}= 0.001\\), 0.0019, 0.002, and 0.0021. Same results as in Figure {{< resource_link 799fbd6f-42df-695d-64e6-b06528802e94 "1.12" >}} just showing the small \\(t\\) behavior in more detail.
 
 A more efficient approach to numerically integrating this stiff problem would be to use a method with eigenvalue stability for large negative real eigenvalues. Implicit methods often have excellent stability along the negative real axis. Recall from Lecture 3 that an implicit method is one in which the new value \\(v^{n+1}\\) is an implicit function of itself through the forcing function \\(f\\). The simplest implicit method is the backward Euler method,
 
@@ -81,13 +81,13 @@ The backward Euler method is first order accurate (\\(p=1\\)). The amplification
 
 {{< tableclose >}}
 
-When \\(\\lambda\\) is negative real, then \\(g \< 1\\) for all \\({\\Delta t}\\). The eigenvalue stability region for the backward Euler method is shown in Figure [1.14]({{< baseurl >}}/resources/be_stab).
+When \\(\\lambda\\) is negative real, then \\(g \< 1\\) for all \\({\\Delta t}\\). The eigenvalue stability region for the backward Euler method is shown in Figure {{< resource_link 990b5085-d189-e06d-5f7f-7e0dc9ef7aa8 "1.14" >}}.
 
 ![This graph shows that the eigenvalue instability region using the backward Euler method lies on a circle of radius one centered at +1 along the real axis.]({{< resource_file 990b5085-d189-e06d-5f7f-7e0dc9ef7aa8 >}})
 
 **Figure 1.14**: Backward Euler stability region
 
-Only the small circular portion in the right-half plane is unstable while the entire left-half plane is stable. Results from the application of the backward Euler method to Equation [1.109](javascript: void(0)) are shown in Figure [1.15]({{< baseurl >}}/resources/be_stiff).
+Only the small circular portion in the right-half plane is unstable while the entire left-half plane is stable. Results from the application of the backward Euler method to Equation [1.109](javascript: void(0)) are shown in Figure {{< resource_link da288cb5-2b8f-04bb-4607-b8e1a7bcdfdd "1.15" >}}.
 
 ![The four graphs in this figure show the results from simulations for a variety of Δt using backward Euler.]({{< resource_file da288cb5-2b8f-04bb-4607-b8e1a7bcdfdd >}})
 
@@ -125,7 +125,7 @@ Trapezoidal integration is second-order accurate (\\(p=2\\)). The amplification 
 
 {{< tableclose >}}
 
-The stability boundary for trapezoidal integration lies on the imaginary axis (see Figure [1.16]({{< baseurl >}}/resources/trap_stab)).
+The stability boundary for trapezoidal integration lies on the imaginary axis (see Figure {{< resource_link fbebc2ef-28a6-8b77-ed1c-3f50c18d74ab "1.16" >}}).
 
 ![This figure shows the stability boundary for trapezoidal integration lies on the imaginary axis.]({{< resource_file fbebc2ef-28a6-8b77-ed1c-3f50c18d74ab >}})
 
@@ -137,7 +137,7 @@ Again, this method is stable for the entire left-half plane thus it will work we
 
 **Figure 1.17**: Comparison of error for forward Euler, backward Euler, and trapezoidal integration versus \\({\\Delta t}\\) for \\(u\_ t + 1000 u = 100\\sin t\\) with \\(u(0) = 1\\).
 
-The accuracy of the forward Euler, backward Euler, and trapezoidal integration methods are compared in Figure [1.17]({{< baseurl >}}/resources/stiff_err) for Equation [1.109](javascript: void(0)). The error is computed as the maximum across all timesteps of the difference between numerical and exact solutions,
+The accuracy of the forward Euler, backward Euler, and trapezoidal integration methods are compared in Figure {{< resource_link fbc8923a-10d7-61d5-017d-010fde37e96e "1.17" >}} for Equation [1.109](javascript: void(0)). The error is computed as the maximum across all timesteps of the difference between numerical and exact solutions,
 
 {{< tableopen >}}
 {{< tropen >}}
@@ -234,7 +234,7 @@ The question is how do the eigenvalues of \\(A\\) behave, in particular, as the 
 
 {{< tableclose >}}
 
-since the magnitudes of these parameters will scale the magnitude of the eigenvalues of \\(A\\) by the same value but not alter the ratio of eigenvalues (the ratio is only altered by the choice of \\(h/L\\)). Figure [1.18]({{< baseurl >}}/resources/eig_dif1d) shows the locations of the eigenvalues for \\(h/L = 0.1\\) and \\(h/L = 0.05\\).
+since the magnitudes of these parameters will scale the magnitude of the eigenvalues of \\(A\\) by the same value but not alter the ratio of eigenvalues (the ratio is only altered by the choice of \\(h/L\\)). Figure {{< resource_link 1372ae81-aa85-cd3e-5698-1112af79fed1 "1.18" >}} shows the locations of the eigenvalues for \\(h/L = 0.1\\) and \\(h/L = 0.05\\).
 
 ![This figure shows two graphs, the top displays Eigenvalue for discretization of one-dimenionsal diffusion equation for h/L=0.1, and the bottom shows the same for h/L=0.05.]({{< resource_file 1372ae81-aa85-cd3e-5698-1112af79fed1 >}})
 

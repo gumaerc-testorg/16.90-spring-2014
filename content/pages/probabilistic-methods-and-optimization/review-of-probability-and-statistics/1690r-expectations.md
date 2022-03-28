@@ -9,13 +9,13 @@ title: 3.2 Review of Probability and Statistics
 uid: f11bfbbc-299e-7603-ff39-0e8071fc595e
 ---
 
-*   [\<Distributions]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/review-of-probability-and-statistics/1690r-distributions)
-*   [3.2.1Random Variables]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/review-of-probability-and-statistics)
-*   [3.2.2Outcomes and Events]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/review-of-probability-and-statistics/1690r-outcomes-and-events)
-*   [3.2.3Distributions]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/review-of-probability-and-statistics/1690r-distributions)
-*   [3.2.4Expectations]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/review-of-probability-and-statistics/1690r-expectations)
-*   [3.2.5The Central Limit Theorem]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/review-of-probability-and-statistics/1690r-the-central-limit-theorem)
-*   [\>The Central Limit Theorem]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/review-of-probability-and-statistics/1690r-the-central-limit-theorem)
+*   {{< resource_link 0c7b4a5a-66d4-c9d6-0849-150ad651b9c6 "\<Distributions" >}}
+*   {{< resource_link 972a23bc-2208-f9b1-2895-30de24175e7d "3.2.1Random Variables" >}}
+*   {{< resource_link a3d2bfd5-90c2-ddaf-a1c4-73639ba4be5e "3.2.2Outcomes and Events" >}}
+*   {{< resource_link 0c7b4a5a-66d4-c9d6-0849-150ad651b9c6 "3.2.3Distributions" >}}
+*   {{< resource_link f11bfbbc-299e-7603-ff39-0e8071fc595e "3.2.4Expectations" >}}
+*   {{< resource_link 48e310af-9f94-1a31-5e65-7482fc62956d "3.2.5The Central Limit Theorem" >}}
+*   {{< resource_link 48e310af-9f94-1a31-5e65-7482fc62956d "\>The Central Limit Theorem" >}}
 
 3.2.4 Expectations
 ------------------

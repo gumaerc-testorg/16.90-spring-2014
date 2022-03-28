@@ -1,19 +1,19 @@
 ---
 content_type: resource
 description: ''
-end_time: ''
 file: null
 learning_resource_types:
 - Lecture Videos
+ocw_type: ''
 optional_tab_title: Lecture Notes
 optional_text: '![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[Numerical
   Integration of ODEs: Nonlinear Systems (PDF)](resources/mit16_90s14_lecture5)'
 parent_title: Lecture Videos
 parent_type: CourseSection
+parent_uid: null
 related_resources_text: ''
 resource_index_text: ''
 resourcetype: Video
-start_time: ''
 title: 'Session 5: Numerical Integration of ODEs: Nonlinear Systems'
 uid: 746f4122-d95c-c3c2-ef33-5f714bb892a4
 video_files:

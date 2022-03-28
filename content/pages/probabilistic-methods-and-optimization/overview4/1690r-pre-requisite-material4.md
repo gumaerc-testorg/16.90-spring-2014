@@ -9,10 +9,10 @@ title: 3.1 Overview
 uid: 3fd6bb8d-feaf-382c-e150-3c80bd79737e
 ---
 
-*   [\<Overview]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/overview4)
-*   [3.1.1Measurable Outcomes]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/overview4)
-*   [3.1.2Pre-requisite Material]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/overview4/1690r-pre-requisite-material4)
-*   [\>Review of Probability and Statistics]({{< baseurl >}}/pages/probabilistic-methods-and-optimization/review-of-probability-and-statistics)
+*   {{< resource_link 07ccb107-020a-5395-c317-7b0998f3ed49 "\<Overview" >}}
+*   {{< resource_link 07ccb107-020a-5395-c317-7b0998f3ed49 "3.1.1Measurable Outcomes" >}}
+*   {{< resource_link 3fd6bb8d-feaf-382c-e150-3c80bd79737e "3.1.2Pre-requisite Material" >}}
+*   {{< resource_link 972a23bc-2208-f9b1-2895-30de24175e7d "\>Review of Probability and Statistics" >}}
 
 3.1.2 Pre-requisite material
 ----------------------------
